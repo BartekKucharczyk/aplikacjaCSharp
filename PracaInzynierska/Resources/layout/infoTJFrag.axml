@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginLeft = "10dp"
+		android:layout_marginRight = "10dp"
+		android:layout_marginTop = "10dp"
+	>
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="----- Aktywność -----"
+			android:textColor="#ff000000"
+			android:id ="@+id/actywnoscTxt"
+			android:textSize ="12dp"
+	/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+			<Button
+				android:text="Napęd aktywny"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/napedActBtn"
+				android:layout_weight = "1"
+				android:clickable = "false"
+		
+	/>
+		</LinearLayout>
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="------- Zasilanie -------"
+			android:textColor="#ff000000"
+			android:id ="@+id/powerTxt"
+			android:textSize ="12dp"
+	/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+			<Button
+				android:text="Włączone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/ispowerOn"
+				android:layout_weight = "1"
+				android:clickable = "false"
+	/>
+			<Button
+				android:text="Wyłączone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/ispowerOff"
+				android:layout_weight = "1"
+				android:clickable = "false"
+	/>
+		</LinearLayout>
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="----- Bazowanie -----"
+			android:textColor="#ff000000"
+			android:id ="@+id/bazowanieTxt"
+			android:textSize ="12dp"	
+	/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+			<Button
+				android:text="Napęd zbazowany"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/isHomed"
+				android:layout_weight = "1"
+				android:clickable = "false"
+	/>
+		</LinearLayout>
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="----- Pozycja i prędkość -----"
+			android:textColor="#ff000000"
+			android:textSize ="12dp"
+			android:id ="@+id/pozAndpredTxt"
+	/>
+		<Button
+			android:text="Napęd w ruchu"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/moveActive"
+			android:clickable = "false"
+	/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+		
+	>
+			<Button
+				android:text="Pozycja zadana osiągnięta"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/pozZadOs"
+				android:layout_weight = "1"
+				android:clickable = "false"
+	/>
+			<Button
+				android:text="Prędkość zadana osiągnięta"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/preZadOs"
+				android:layout_weight = "1"
+				android:clickable = "false"
+	/>
+		</LinearLayout>
+		<Button
+			android:text="Napęd zatrzymany"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/stoppedN"
+			android:clickable = "false"
+			android:layout_marginBottom = "10dp"
+	/>
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="----- Błędy -----"
+			android:textColor="#ff000000"
+			android:id ="@+id/bledy"
+			android:textSize ="12dp"
+	/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+			<Button
+				android:text="Błąd serwonapędu"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/napInError"
+				android:layout_weight = "1"
+				android:clickable = "false"
+	/>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+			<TextView
+				android:text="ID statusu:"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:textColor="#ff000000"
+				android:textSize ="12dp"
+				android:layout_marginLeft = "20dp"
+		
+		/>
+			<EditText
+				android:inputType="textPersonName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/statusIDEdxt"
+				android:layout_weight = "1"
+				android:layout_marginLeft = "20dp"
+				android:layout_marginRight = "20dp"
+				android:cursorVisible = "false"
+				android:enabled = "false"
+				android:clickable = "false"
+		/>
+		</LinearLayout>
+		<Button
+			android:text="Reset błędu włączony"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/resetON"
+			android:clickable = "false"
+	/>
+	</LinearLayout>
+</ScrollView>
