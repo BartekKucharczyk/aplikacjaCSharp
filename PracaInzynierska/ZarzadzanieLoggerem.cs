@@ -157,6 +157,36 @@ namespace PracaInzynierska
             await sessionChannel.WriteAsync(writeRequest);
         }
 
+        public async void SendNumberOfLogToRead(UaTcpSessionChannel sessionChannel,Int16 value)
+        {
+
+            var nodeIds = new[]
+            {
+                NodeId.Parse("ns=6;s=::LoggerTask:_LoggerHandling.Input.Parameters.NumberOfLog")
+            };
+            
+            RegisterNodesResponse registerNodesResponse = null;
+
+            var registerNodesRequest = new RegisterNodesRequest
+            {
+                NodesToRegister = nodeIds
+            };
+            registerNodesResponse = await sessionChannel.RegisterNodesAsync(registerNodesRequest);
+
+            Object rue = value;
+
+            DataValue dataValues = new DataValue(rue);
+
+            var writeRequest = new WriteRequest
+            {
+                NodesToWrite = (registerNodesResponse?.RegisteredNodeIds ?? nodeIds)
+              .Select(n => new WriteValue { NodeId = n, AttributeId = AttributeIds.Value, Value = dataValues }).ToArray()
+            };
+
+            await sessionChannel.WriteAsync(writeRequest);
+        }
+
+
         public bool getReadInfo()
         {
             return wczytano;

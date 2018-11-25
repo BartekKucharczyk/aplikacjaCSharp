@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
 	<LinearLayout
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
@@ -31,11 +30,38 @@
 
 	</LinearLayout>
 
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginRight = "10dp"
+		android:layout_marginLeft = "10dp"
+	>
+	<TextView
+			android:text="Ilość wpisów:"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:textColor="#ff000000" />
+		<EditText
+			android:layout_width="55dp"
+			android:layout_height="55dp"
+			android:hint = "nr"
+			android:gravity = "center"
+			android:text = "20"
+			android:id="@+id/numberOfLogToRead"
+			android:inputType="numberDecimal"
+			android:maxLength="2" />  
+
+	</LinearLayout>
+
 	<Button
 		android:text="Wczytaj"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/readLogBtn" />
+		android:id="@+id/readLogBtn"
+	/>
 
 
 	<ListView  
@@ -44,7 +70,5 @@
         android:layout_height="wrap_content"  
         android:fastScrollEnabled="true" />
 	
-
-
 
 </LinearLayout>

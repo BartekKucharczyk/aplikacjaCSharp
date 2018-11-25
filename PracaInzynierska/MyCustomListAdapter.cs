@@ -53,6 +53,7 @@ namespace PracaInzynierska
 
             var holder = (ViewHolder)view.Tag;
 
+
             //switch (log[position].Severity)
             //{
             //    case "S":

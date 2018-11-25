@@ -72,6 +72,7 @@
     <Compile Include="ViewPagerAdapter.cs" />
     <Compile Include="ZarzadzanieLoggerem.cs" />
     <Compile Include="ZarzadzanieOsia.cs" />
+    <Compile Include="ZarzadzanieSterownikiem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -148,6 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\diagnosis.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\headerLogRow.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

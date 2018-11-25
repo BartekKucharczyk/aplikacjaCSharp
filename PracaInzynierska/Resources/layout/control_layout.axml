@@ -7,11 +7,13 @@
 	android:gravity = "center"
 	>
 
+	
+	
+
 	<LinearLayout
 		android:orientation ="horizontal"
 		android:layout_width ="match_parent"
 		android:layout_height = "wrap_content"
-		android:layout_marginTop = "20dp"
 		android:gravity = "center"
 	>
 	<Button
@@ -131,6 +133,29 @@
 
 	</LinearLayout>
 	
+<LinearLayout
+		android:orientation ="horizontal"
+		android:layout_width ="match_parent"
+		android:layout_height = "wrap_content"
+		android:gravity = "left"
+		android:layout_gravity = "bottom"
+		android:layout_marginTop = "15dp"
+		android:layout_marginLeft = "8dp"
+		
+	>
+	<TextView
+		android:text="PLC time:  "
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tTxt" />
 
+		<TextView
+		android:text=""
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/timeTxt" />
+	</LinearLayout>
 
 </LinearLayout>
