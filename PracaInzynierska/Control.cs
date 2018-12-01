@@ -6,10 +6,11 @@ using Android.Widget;
 using Workstation.ServiceModel.Ua;
 using Workstation.ServiceModel.Ua.Channels;
 using System.Timers;
+using Android.Content.PM;
 
 namespace PracaInzynierska
 {
-    [Activity(Label = "Control")]
+    [Activity(Label = "Control",ScreenOrientation = ScreenOrientation.Portrait)]
     public class Control : Activity
     {
         Timer timer;
@@ -80,7 +81,7 @@ namespace PracaInzynierska
 
             jazda.Click += (sender, e) =>
             {
-             //   timer.Stop();
+               // timer.Stop();
                 Intent intent = new Intent(this, typeof(TrybyJazdyKlasa));
                 intent.PutExtra("url", Intent.GetStringExtra("url"));
                 intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
@@ -91,7 +92,7 @@ namespace PracaInzynierska
 
             diagnostyka.Click += (sender, e) =>
             {
-             //   timer.Stop();
+                //timer.Stop();
                 Intent intent = new Intent(this, typeof(Diagnosis));
                 intent.PutExtra("url", Intent.GetStringExtra("url"));
                 intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
@@ -106,12 +107,21 @@ namespace PracaInzynierska
                 this.Finish();
             };
 
-
+            wykres.Click += (sender,e) =>
+            {
+                timer.Stop();
+                Intent intent = new Intent(this, typeof(Charts));
+                intent.PutExtra("url", Intent.GetStringExtra("url"));
+                intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
+                intent.PutExtra("login", Intent.GetStringExtra("login"));
+                intent.PutExtra("haslo", Intent.GetStringExtra("haslo"));
+                StartActivity(intent);
+            };
           
-
-
-           
+ 
         }
+
+      
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {

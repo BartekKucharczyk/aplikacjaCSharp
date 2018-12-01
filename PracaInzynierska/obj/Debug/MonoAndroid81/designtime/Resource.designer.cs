@@ -2366,8 +2366,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0014
 			public const int activity_chooser_view_content = 2131492884;
 			
-			// aapt resource value: 0x7F010036
-			public const int actywnoscTxt = 2130772022;
+			// aapt resource value: 0x7F010037
+			public const int actywnoscTxt = 2130772023;
 			
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
@@ -2387,11 +2387,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
-			// aapt resource value: 0x7F010042
-			public const int bazowanieTxt = 2130772034;
+			// aapt resource value: 0x7F010043
+			public const int bazowanieTxt = 2130772035;
 			
-			// aapt resource value: 0x7F010049
-			public const int bledy = 2130772041;
+			// aapt resource value: 0x7F010050
+			public const int bledy = 2130772048;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
@@ -2429,8 +2429,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F010035
-			public const int dateTxtView = 2130772021;
+			// aapt resource value: 0x7F010036
+			public const int dateTxtView = 2130772022;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
@@ -2438,8 +2438,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
-			// aapt resource value: 0x7F010034
-			public const int descTxtView = 2130772020;
+			// aapt resource value: 0x7F010035
+			public const int descTxtView = 2130772021;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2456,20 +2456,20 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F010019
-			public const int diagnostykaBtn = 2130771993;
+			// aapt resource value: 0x7F010020
+			public const int diagnostykaBtn = 2130772000;
 			
-			// aapt resource value: 0x7F010061
-			public const int editText10 = 2130772065;
+			// aapt resource value: 0x7F010062
+			public const int editText10 = 2130772066;
 			
-			// aapt resource value: 0x7F010063
-			public const int editText12 = 2130772067;
+			// aapt resource value: 0x7F010064
+			public const int editText12 = 2130772068;
 			
-			// aapt resource value: 0x7F010065
-			public const int editText14 = 2130772069;
+			// aapt resource value: 0x7F010066
+			public const int editText14 = 2130772070;
 			
-			// aapt resource value: 0x7F010059
-			public const int editText8 = 2130772057;
+			// aapt resource value: 0x7F010060
+			public const int editText8 = 2130772064;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -2486,8 +2486,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
 			
-			// aapt resource value: 0x7F010033
-			public const int errorIdTextView = 2130772019;
+			// aapt resource value: 0x7F010034
+			public const int errorIdTextView = 2130772020;
 			
 			// aapt resource value: 0x7F0C0030
 			public const int expanded_menu = 2131492912;
@@ -2495,8 +2495,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F010055
-			public const int fghj = 2130772053;
+			// aapt resource value: 0x7F010056
+			public const int fghj = 2130772054;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2519,8 +2519,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F010068
-			public const int homeBtn = 2130772072;
+			// aapt resource value: 0x7F010069
+			public const int homeBtn = 2130772073;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -2528,8 +2528,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F010032
-			public const int idTextView = 2130772018;
+			// aapt resource value: 0x7F010033
+			public const int idTextView = 2130772019;
 			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
@@ -2540,14 +2540,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010003
 			public const int ipAdresEB = 2130771971;
 			
-			// aapt resource value: 0x7F010043
-			public const int isHomed = 2130772035;
+			// aapt resource value: 0x7F010044
+			public const int isHomed = 2130772036;
+			
+			// aapt resource value: 0x7F010042
+			public const int ispowerOff = 2130772034;
 			
 			// aapt resource value: 0x7F010041
-			public const int ispowerOff = 2130772033;
-			
-			// aapt resource value: 0x7F010040
-			public const int ispowerOn = 2130772032;
+			public const int ispowerOn = 2130772033;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -2567,8 +2567,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
-			// aapt resource value: 0x7F010037
-			public const int linearLayout1 = 2130772023;
+			// aapt resource value: 0x7F010038
+			public const int linearLayout1 = 2130772024;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2576,8 +2576,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F010031
-			public const int loggerList = 2130772017;
+			// aapt resource value: 0x7F010032
+			public const int loggerList = 2130772018;
 			
 			// aapt resource value: 0x7F010013
 			public const int loginEB = 2130771987;
@@ -2585,11 +2585,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010012
 			public const int loginTxt = 2130771986;
 			
-			// aapt resource value: 0x7F010069
-			public const int mAbsoluteBtn = 2130772073;
+			// aapt resource value: 0x7F010070
+			public const int mAbsoluteBtn = 2130772080;
 			
-			// aapt resource value: 0x7F010071
-			public const int mAdditiveBtn = 2130772081;
+			// aapt resource value: 0x7F010072
+			public const int mAdditiveBtn = 2130772082;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2603,32 +2603,32 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
-			// aapt resource value: 0x7F010045
-			public const int moveActive = 2130772037;
+			// aapt resource value: 0x7F010046
+			public const int moveActive = 2130772038;
 			
-			// aapt resource value: 0x7F010072
-			public const int mTorqueBtn = 2130772082;
+			// aapt resource value: 0x7F010073
+			public const int mTorqueBtn = 2130772083;
 			
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F010070
-			public const int mVelocityBtn = 2130772080;
+			// aapt resource value: 0x7F010071
+			public const int mVelocityBtn = 2130772081;
 			
-			// aapt resource value: 0x7F010028
-			public const int nameOfLoogbook = 2130772008;
+			// aapt resource value: 0x7F010029
+			public const int nameOfLoogbook = 2130772009;
 			
-			// aapt resource value: 0x7F010038
-			public const int napedActBtn = 2130772024;
+			// aapt resource value: 0x7F010039
+			public const int napedActBtn = 2130772025;
 			
-			// aapt resource value: 0x7F010050
-			public const int napInError = 2130772048;
+			// aapt resource value: 0x7F010051
+			public const int napInError = 2130772049;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F010022
-			public const int NoBtn = 2130772002;
+			// aapt resource value: 0x7F010023
+			public const int NoBtn = 2130772003;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2645,8 +2645,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
-			// aapt resource value: 0x7F010029
-			public const int numberOfLogToRead = 2130772009;
+			// aapt resource value: 0x7F010030
+			public const int numberOfLogToRead = 2130772016;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
@@ -2660,6 +2660,9 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
+			// aapt resource value: 0x7F010017
+			public const int plot_view = 2130771991;
+			
 			// aapt resource value: 0x7F010016
 			public const int polaczBtn = 2130771990;
 			
@@ -2669,26 +2672,26 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010004
 			public const int portTxt = 2130771972;
 			
-			// aapt resource value: 0x7F010039
-			public const int powerTxt = 2130772025;
+			// aapt resource value: 0x7F010040
+			public const int powerTxt = 2130772032;
 			
-			// aapt resource value: 0x7F010056
-			public const int pozActBox = 2130772054;
+			// aapt resource value: 0x7F010057
+			public const int pozActBox = 2130772055;
 			
-			// aapt resource value: 0x7F010044
-			public const int pozAndpredTxt = 2130772036;
-			
-			// aapt resource value: 0x7F010046
-			public const int pozZadOs = 2130772038;
-			
-			// aapt resource value: 0x7F010054
-			public const int predActBox = 2130772052;
+			// aapt resource value: 0x7F010045
+			public const int pozAndpredTxt = 2130772037;
 			
 			// aapt resource value: 0x7F010047
-			public const int preZadOs = 2130772039;
+			public const int pozZadOs = 2130772039;
 			
-			// aapt resource value: 0x7F010021
-			public const int programBtn = 2130772001;
+			// aapt resource value: 0x7F010055
+			public const int predActBox = 2130772053;
+			
+			// aapt resource value: 0x7F010048
+			public const int preZadOs = 2130772040;
+			
+			// aapt resource value: 0x7F010022
+			public const int programBtn = 2130772002;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2702,17 +2705,17 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010009
 			public const int radioGroup1 = 2130771977;
 			
-			// aapt resource value: 0x7F010030
-			public const int readLogBtn = 2130772016;
+			// aapt resource value: 0x7F010031
+			public const int readLogBtn = 2130772017;
 			
 			// aapt resource value: 0x7F010008
 			public const int rememberChB = 2130771976;
 			
-			// aapt resource value: 0x7F010075
-			public const int resetErrBtn = 2130772085;
+			// aapt resource value: 0x7F010076
+			public const int resetErrBtn = 2130772086;
 			
-			// aapt resource value: 0x7F010052
-			public const int resetON = 2130772050;
+			// aapt resource value: 0x7F010053
+			public const int resetON = 2130772051;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2783,8 +2786,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
-			// aapt resource value: 0x7F010077
-			public const int sliding_tabs = 2130772087;
+			// aapt resource value: 0x7F010078
+			public const int sliding_tabs = 2130772088;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -2813,20 +2816,20 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x7F010051
-			public const int statusIDEdxt = 2130772049;
+			// aapt resource value: 0x7F010052
+			public const int statusIDEdxt = 2130772050;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
 			
+			// aapt resource value: 0x7F010075
+			public const int stopOffBtn = 2130772085;
+			
 			// aapt resource value: 0x7F010074
-			public const int stopOffBtn = 2130772084;
+			public const int stopOnBtn = 2130772084;
 			
-			// aapt resource value: 0x7F010073
-			public const int stopOnBtn = 2130772083;
-			
-			// aapt resource value: 0x7F010048
-			public const int stoppedN = 2130772040;
+			// aapt resource value: 0x7F010049
+			public const int stoppedN = 2130772041;
 			
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
@@ -2858,26 +2861,26 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F010027
-			public const int textView1 = 2130772007;
+			// aapt resource value: 0x7F010028
+			public const int textView1 = 2130772008;
 			
-			// aapt resource value: 0x7F010062
-			public const int textView11 = 2130772066;
+			// aapt resource value: 0x7F010063
+			public const int textView11 = 2130772067;
 			
-			// aapt resource value: 0x7F010064
-			public const int textView13 = 2130772068;
+			// aapt resource value: 0x7F010065
+			public const int textView13 = 2130772069;
 			
-			// aapt resource value: 0x7F010053
-			public const int textView2 = 2130772051;
-			
-			// aapt resource value: 0x7F010057
-			public const int textView6 = 2130772055;
+			// aapt resource value: 0x7F010054
+			public const int textView2 = 2130772052;
 			
 			// aapt resource value: 0x7F010058
-			public const int textView7 = 2130772056;
+			public const int textView6 = 2130772056;
 			
-			// aapt resource value: 0x7F010060
-			public const int textView9 = 2130772064;
+			// aapt resource value: 0x7F010059
+			public const int textView7 = 2130772057;
+			
+			// aapt resource value: 0x7F010061
+			public const int textView9 = 2130772065;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2885,8 +2888,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
 			
-			// aapt resource value: 0x7F010026
-			public const int timeTxt = 2130772006;
+			// aapt resource value: 0x7F010027
+			public const int timeTxt = 2130772007;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int title = 2131492890;
@@ -2921,14 +2924,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
+			// aapt resource value: 0x7F010019
+			public const int trybRecznyBtn = 2130771993;
+			
 			// aapt resource value: 0x7F010018
-			public const int trybRecznyBtn = 2130771992;
+			public const int trybyJazdyBtn = 2130771992;
 			
-			// aapt resource value: 0x7F010017
-			public const int trybyJazdyBtn = 2130771991;
-			
-			// aapt resource value: 0x7F010025
-			public const int tTxt = 2130772005;
+			// aapt resource value: 0x7F010026
+			public const int tTxt = 2130772006;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2936,14 +2939,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F010023
-			public const int ustawieniaBtn = 2130772003;
+			// aapt resource value: 0x7F010024
+			public const int ustawieniaBtn = 2130772004;
 			
 			// aapt resource value: 0x7F010011
 			public const int uzytkownikRB = 2130771985;
 			
-			// aapt resource value: 0x7F010078
-			public const int viewpager = 2130772088;
+			// aapt resource value: 0x7F010079
+			public const int viewpager = 2130772089;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -2954,20 +2957,20 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
 			
-			// aapt resource value: 0x7F010076
-			public const int wsteczBtn = 2130772086;
+			// aapt resource value: 0x7F010077
+			public const int wsteczBtn = 2130772087;
 			
-			// aapt resource value: 0x7F010024
-			public const int wyjścieBtn = 2130772004;
+			// aapt resource value: 0x7F010025
+			public const int wyjścieBtn = 2130772005;
 			
-			// aapt resource value: 0x7F010020
-			public const int wykresyBtn = 2130772000;
-			
-			// aapt resource value: 0x7F010066
-			public const int zasilanieBtn = 2130772070;
+			// aapt resource value: 0x7F010021
+			public const int wykresyBtn = 2130772001;
 			
 			// aapt resource value: 0x7F010067
-			public const int zasilanieOffBtn = 2130772071;
+			public const int zasilanieBtn = 2130772071;
+			
+			// aapt resource value: 0x7F010068
+			public const int zasilanieOffBtn = 2130772072;
 			
 			static Id()
 			{
@@ -3107,7 +3110,10 @@ namespace PracaInzynierska
 			public const int activity_main = 2130837506;
 			
 			// aapt resource value: 0x7F020003
-			public const int control_layout = 2130837507;
+			public const int charst_lay = 2130837507;
+			
+			// aapt resource value: 0x7F020004
+			public const int control_layout = 2130837508;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -3151,17 +3157,17 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F020004
-			public const int diagnosis = 2130837508;
-			
 			// aapt resource value: 0x7F020005
-			public const int headerLogRow = 2130837509;
+			public const int diagnosis = 2130837509;
 			
 			// aapt resource value: 0x7F020006
-			public const int infoTJFrag = 2130837510;
+			public const int headerLogRow = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int logRow = 2130837511;
+			public const int infoTJFrag = 2130837511;
+			
+			// aapt resource value: 0x7F020008
+			public const int logRow = 2130837512;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3208,8 +3214,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F020008
-			public const int ParamTJFrag = 2130837512;
+			// aapt resource value: 0x7F020009
+			public const int ParamTJFrag = 2130837513;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3220,8 +3226,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F020009
-			public const int sterowanieTJFrag = 2130837513;
+			// aapt resource value: 0x7F020010
+			public const int sterowanieTJFrag = 2130837520;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -3229,8 +3235,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F020010
-			public const int tryby_jazdy_layout = 2130837520;
+			// aapt resource value: 0x7F020011
+			public const int tryby_jazdy_layout = 2130837521;
 			
 			static Layout()
 			{

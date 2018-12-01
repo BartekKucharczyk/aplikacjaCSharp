@@ -35,6 +35,10 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\infotjfrag.xml
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\paramtjfrag.xml
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\sterowanietjfrag.xml
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\logrow.xml
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\diagnosis.xml
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\headerlogrow.xml
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\charst_lay.xml
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\R.cs.flag
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\R.txt
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\uploadflags.txt
@@ -75,6 +79,9 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\System.Web.Services.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\System.Xml.Linq.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\Mono.Security.pdb
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\OxyPlot.dll.mdb
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\OxyPlot.dll.mdb
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\OxyPlot.dll.mdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.IO.RecyclableMemoryStream.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Mono.Android.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Mono.Security.pdb
@@ -94,7 +101,5 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Web.Services.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Xml.Linq.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\logrow.xml
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\diagnosis.xml
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\res\layout\headerlogrow.xml
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\PracaInzynierska.pdb
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\OxyPlot.dll.mdb

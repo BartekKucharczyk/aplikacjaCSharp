@@ -1,4 +1,6 @@
 BouncyCastle.Crypto
+Microcharts
+Microcharts.Droid
 Microsoft.Extensions.Configuration.Abstractions
 Microsoft.Extensions.Configuration.Binder
 Microsoft.Extensions.Configuration
@@ -9,6 +11,10 @@ Microsoft.Extensions.Options.ConfigurationExtensions
 Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
 Microsoft.IO.RecyclableMemoryStream
+OxyPlot
+OxyPlot.Xamarin.Android
+SkiaSharp
+SkiaSharp.Views.Android
 System.Reactive.Core
 System.Reactive.Interfaces
 System.Reactive.Linq
@@ -33,14 +39,15 @@ Xamarin.Android.Support.v4
 Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+System.Collections
 netstandard
 System.Collections.Concurrent
-System.Collections
 System.Threading
+System.Diagnostics.Debug
+System.Globalization
+System.Reflection.Extensions
 System.Resources.ResourceManager
 System.Threading.Tasks
 System.Diagnostics.Tools
-System.Diagnostics.Debug
-System.Globalization
 System.ComponentModel
 System.Runtime.InteropServices.WindowsRuntime
