@@ -108,8 +108,6 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "PracaInzynierska.dll" comes first in this list. */
 		"PracaInzynierska.dll",
 		"BouncyCastle.Crypto.dll",
-		"Microcharts.dll",
-		"Microcharts.Droid.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
 		"Microsoft.Extensions.Configuration.Binder.dll",
 		"Microsoft.Extensions.Configuration.dll",
@@ -122,8 +120,6 @@ class MonoPackageManager_Resources {
 		"Microsoft.IO.RecyclableMemoryStream.dll",
 		"OxyPlot.dll",
 		"OxyPlot.Xamarin.Android.dll",
-		"SkiaSharp.dll",
-		"SkiaSharp.Views.Android.dll",
 		"System.Reactive.Core.dll",
 		"System.Reactive.Interfaces.dll",
 		"System.Reactive.Linq.dll",

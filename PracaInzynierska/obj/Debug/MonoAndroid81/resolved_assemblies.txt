@@ -1,8 +1,6 @@
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\PracaInzynierska.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\BouncyCastle.Crypto.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microcharts.dll
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microcharts.Droid.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.Extensions.Configuration.dll
@@ -17,8 +15,6 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\OxyPlot.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\OxyPlot.Xamarin.Android.dll
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\SkiaSharp.dll
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\SkiaSharp.Views.Android.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.IO.Compression.dll
@@ -78,7 +74,6 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Runtime.InteropServices.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Extensions.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Reflection.Extensions.dll
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.ValueTuple.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.IO.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Diagnostics.Tracing.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\System.Text.RegularExpressions.dll

@@ -7,7 +7,7 @@
     <activity android:label="Charts" android:screenOrientation="landscape" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Charts" />
     <activity android:label="Control" android:screenOrientation="portrait" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Control" />
     <activity android:label="Diagnosis" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Diagnosis" />
-    <activity android:label="BR Drive Diagnostic" android:theme="@style/AppTheme" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.MainActivity">
+    <activity android:label="Drive - PLC Diagnostic" android:theme="@style/AppTheme" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

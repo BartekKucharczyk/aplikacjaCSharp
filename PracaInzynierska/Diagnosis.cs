@@ -24,7 +24,6 @@ namespace PracaInzynierska
 
         ListView myList;
         EditText nameOfLogbook,numberOfLog;
-        View headreList;
         Button readLogs;
         Timer timer;
         bool readBook = false;
@@ -88,9 +87,7 @@ namespace PracaInzynierska
             Connect(Intent.GetStringExtra("url"), Intent.GetBooleanExtra("anonimowy", true), Intent.GetStringExtra("login"), Intent.GetStringExtra("haslo"));
           
             myList = FindViewById<ListView>(Resource.Id.loggerList);
-            headreList = View.Inflate(this, Resource.Layout.headerLogRow, null);
-            myList.AddHeaderView(headreList);
-
+     
             readLogs.Click += (sender, e) =>
             {
 

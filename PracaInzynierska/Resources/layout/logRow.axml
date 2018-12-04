@@ -5,18 +5,18 @@
     android:layout_height="fill_parent"  
     android:minWidth="25px"  
     android:minHeight="25px"  
-    android:paddingBottom="4dp"> 
-
-	 <TextView  
-        android:id="@+id/idTextView"  
-        android:layout_width="50dp"  
-        android:layout_height="50dp"  
-        android:layout_alignParentLeft="true"  
-        android:layout_centerVertical="true"  
+    android:paddingBottom="4dp">
+	<TextView
+		android:id="@+id/idTextView"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
 		android:text = "x"
 		android:textSize = "20dp"
 		android:gravity = "center"
-        android:padding="5dp" />  
+		android:padding="5dp"
+		android:textColor="#ff000000" />  
     <TextView  
         android:id="@+id/errorIdTextView"  
         android:layout_toRightOf="@id/idTextView"  

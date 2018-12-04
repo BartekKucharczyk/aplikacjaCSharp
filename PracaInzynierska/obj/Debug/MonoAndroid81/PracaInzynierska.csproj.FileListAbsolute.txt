@@ -60,6 +60,7 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\Sy
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\System.Web.Services.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\System.Xml.Linq.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\System.Xml.pdb
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\OxyPlot.dll.mdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\PracaInzynierska.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\Microsoft.IO.RecyclableMemoryStream.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\Mono.Android.pdb
@@ -79,7 +80,6 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\System.Web.Services.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\System.Xml.Linq.pdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\Mono.Security.pdb
-C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\bin\Debug\OxyPlot.dll.mdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\linksrc\OxyPlot.dll.mdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\OxyPlot.dll.mdb
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.IO.RecyclableMemoryStream.pdb

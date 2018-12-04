@@ -62,7 +62,7 @@ namespace PracaInzynierska
 
 
             plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom ,ExtraGridlines = nrOfGrid ,ExtraGridlineColor = OxyColors.Blue,ExtraGridlineThickness = 0.5});
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 1700, Minimum = 0 });
+            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 1700, Minimum = 0 , ExtraGridlines = nrOfGrid, ExtraGridlineColor = OxyColors.Blue, ExtraGridlineThickness = 0.5 });
 
             var series1 = new LineSeries
             {
@@ -92,15 +92,10 @@ namespace PracaInzynierska
             SetContentView(Resource.Layout.charst_lay);
 
             PlotView view = FindViewById<PlotView>(Resource.Id.plot_view);
+            Connect(Intent.GetStringExtra("url"), Intent.GetBooleanExtra("anonimowy", true), Intent.GetStringExtra("login"), Intent.GetStringExtra("haslo"));
+           
 
-            Random kp = new Random(1500);
-            double[] ss = new double[150];
-            for(int i = 0; i<150; i++)
-            {
-                ss[i] = kp.Next(1500);
-            }
-
-            view.Model = CreatePlotModel(ss);
+           // view.Model = CreatePlotModel();
            
           
 

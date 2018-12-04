@@ -59,7 +59,7 @@ namespace PracaInzynierska
 
                var nodeIds = new[]
                {
-                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.PowerOn")
+                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.PowerOn")
                };
            
                  RegisterNodesResponse registerNodesResponse = null;
@@ -88,7 +88,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.PowerOff")
+                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.PowerOff")
                };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -117,7 +117,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.Home")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.Home")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -146,7 +146,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveVelocity")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveVelocity")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -175,7 +175,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveAdditive")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveAdditive")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -204,7 +204,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveAbsolute")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveAbsolute")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -233,7 +233,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveTorque")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.MoveTorque")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -262,7 +262,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.StopOn")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.StopOn")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -291,7 +291,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.StopOff")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.StopOff")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -320,7 +320,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.ErrorReset")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.ErrorReset")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -349,7 +349,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.Update")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.Update")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -378,7 +378,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.JogPositive")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.JogPositive")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -407,7 +407,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.JogPositive")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.JogPositive")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -436,7 +436,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.JogNegative")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.JogNegative")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -465,7 +465,7 @@ namespace PracaInzynierska
 
             var nodeIds = new[]
             {
-                NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Input.Commands.SingleAxis.A1.JogNegative")
+                NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Input.Commands.SingleAxis.A1.JogNegative")
             };
 
             RegisterNodesResponse registerNodesResponse = null;
@@ -491,18 +491,18 @@ namespace PracaInzynierska
     
         public async void ReadStatus(UaTcpSessionChannel session)
         {
-            var nodeIds = new[] { NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.Active"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.PowerOn"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.IsHomed"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.Error"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.MoveActive"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.InPosition"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.InVelocity"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.UpdateDone"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.Stopped"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.StatusID"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.Params.PositionAct"),
-                                  NodeId.Parse("ns=6;s=::AsGlobalPV:_AxisCtrl.Output.States.SingleAxis.Axis_0.Params.VelocityAct")
+            var nodeIds = new[] { NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.Active"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.PowerOn"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.IsHomed"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.Error"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.MoveActive"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.InPosition"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.InVelocity"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.UpdateDone"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.Stopped"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.StatusID"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.Params.PositionAct"),
+                                  NodeId.Parse("ns=6;s=::AxisCtrl:_AxisCtrl.Output.States.SingleAxis.Axis_0.Params.VelocityAct")
             };
 
             RegisterNodesResponse registerNodesResponse = null;

@@ -5,17 +5,20 @@ using Android.Widget;
 using Workstation.ServiceModel.Ua.Channels;
 using Workstation.ServiceModel.Ua;
 using Android.Content;
-using System;
+using System.Timers;
+using Android.Preferences;
 
 namespace PracaInzynierska
 {
-    [Activity(Label = "BR Drive Diagnostic", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "Drive - PLC Diagnostic", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        // "@string/app_name"
         RadioButton anonimowy, uzytkownik;
         Button polacz;
         EditText ipAdress, portEd, endpoinUrlET, login, haslo;
+        Timer timer;
+        CheckBox remember;
+        bool tryConnect = false;
 
         UaTcpSessionChannel session;
         ConnectionWithServer connection = new ConnectionWithServer();
@@ -30,21 +33,48 @@ namespace PracaInzynierska
             login = FindViewById<EditText>(Resource.Id.loginEB);
             haslo = FindViewById<EditText>(Resource.Id.hasloEB);
 
+            remember = FindViewById<CheckBox>(Resource.Id.rememberChB);
+
             anonimowy = FindViewById<RadioButton>(Resource.Id.anonimowyRB);
             uzytkownik = FindViewById<RadioButton>(Resource.Id.uzytkownikRB);
         }
-
-        public void TimeoutError()
+        public void TimerInit()
         {
-            login.Text = "ERROR";
+            timer = new Timer();
+            timer.Interval = 50;
+            timer.Enabled = true;
+            timer.Elapsed += Timer_Elapsed;
+        }
+
+        public void InitValue()
+        {
+            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+            ipAdress.Text = prefs.GetString("ip_server_OPC", "");
+            portEd.Text = prefs.GetString("port_server_OPC", "");
+            endpoinUrlET.Text = prefs.GetString("endpointURL_server_OPC","");
+        }
+        
+        public void ErrorAlert()
+        {
+            Android.App.AlertDialog.Builder alert = new Android.App.AlertDialog.Builder(this);
+            alert.SetTitle("Incorrect parameter");
+            alert.SetMessage("One of the objects may be incorrect. Correct this and try to connect again.");
+            alert.SetPositiveButton("Ok, I understand", (senderAlert, args) => {
+                //Toast.MakeText(this, "Deleted!", ToastLength.Short).Show();
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
         }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-
+             
             InitScreen();
+            InitValue();
+            TimerInit();
 
             polacz.Click +=  (sender, e) =>
             {
@@ -61,36 +91,11 @@ namespace PracaInzynierska
                     userIdentity = new UserNameIdentity(login.Text, haslo.Text);
                 }
 
-                try
-                {
-                    session = connection.GetSesssion(userIdentity, discoveryUrl);
-                    Connect();
-                    
-                       Intent intent = new Intent(this, typeof(Control));
-                       intent.PutExtra("url", discoveryUrl);
-                       intent.PutExtra("anonimowy", anonimowy.Checked);
-                       intent.PutExtra("login", login.Text);
-                       intent.PutExtra("haslo", haslo.Text);
-                       polacz.Enabled = true;
-                       StartActivity(intent);
-                             
-                }
+                session = connection.GetSesssion(userIdentity, discoveryUrl);
+             
+                tryConnect = true;
+                timer.Start();
                 
-                catch (ServiceResultException ex)
-                {
-                    polacz.Enabled = true;
-                    Disconnect();
-                }
-                catch (TimeoutException ex)
-                {
-                    polacz.Enabled = true;
-                    TimeoutError();                 
-                }
-                catch (Exception ex)
-                {
-                    polacz.Enabled = true;
-                    Disconnect();
-                }
             };
 
             anonimowy.Click += (sender, e) =>
@@ -106,13 +111,55 @@ namespace PracaInzynierska
             };
         }
 
-        public async void Connect()
+        public void Connected()
         {
-           await session.OpenAsync().ConfigureAwait(true);
+                Intent intent = new Intent(this, typeof(Control));
+                intent.PutExtra("url", endpoinUrlET.Text + "://" + ipAdress.Text + ":" + portEd.Text);
+                intent.PutExtra("anonimowy", anonimowy.Checked);
+                intent.PutExtra("login", login.Text);
+                intent.PutExtra("haslo", haslo.Text);
+                polacz.Enabled = true;
+                StartActivity(intent);
         }
-        public async void Disconnect()
+
+        private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            await session.CloseAsync().ConfigureAwait(true);
+            if (tryConnect)
+            {
+                session.OpenAsync();
+                tryConnect = false;
+            }
+
+            if (session.State.ToString().Equals("Opened"))
+            {
+                timer.Stop();
+
+                if(remember.Checked)
+                {
+                    ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+                    ISharedPreferencesEditor editor = prefs.Edit();
+                    editor.PutString("ip_server_OPC", ipAdress.Text.ToString());
+                    editor.PutString("port_server_OPC", portEd.Text.ToString());
+                    editor.PutString("endpointURL_server_OPC", endpoinUrlET.Text.ToString());
+                    editor.Apply();
+                }
+
+                RunOnUiThread(() =>
+                {
+                    Connected();
+                });
+            }
+            else if(session.State.ToString().Equals("Faulted"))
+            {
+                timer.Stop();
+                RunOnUiThread(() =>
+                {
+                    polacz.Enabled = true;
+                    ErrorAlert();
+                });
+            }
+
+
         }
 
     }

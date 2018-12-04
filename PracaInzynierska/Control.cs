@@ -15,13 +15,12 @@ namespace PracaInzynierska
     {
         Timer timer;
         UaTcpSessionChannel sessionN;
-        Button jazda, trybReczny, diagnostyka, wykres, wyjscie, ustawienia_para;
+        Button jazda, trybReczny, diagnostyka,  ustawienia_para;//wykres, wyjscie,
         ZarzadzanieSterownikiem zarzadzanie = new ZarzadzanieSterownikiem();
-        TextView timePLCCont;
+        ImageButton wykres, wyjscie;
 
         public async void Connect(string url, bool anonimowe, string login, string haslo)
         {
-           
            ConnectionWithServer conn = new ConnectionWithServer();
 
            IUserIdentity userIdentity = null;
@@ -69,19 +68,37 @@ namespace PracaInzynierska
             jazda = FindViewById<Button>(Resource.Id.trybyJazdyBtn);
             trybReczny = FindViewById<Button>(Resource.Id.trybRecznyBtn);
             diagnostyka = FindViewById<Button>(Resource.Id.diagnostykaBtn);
-            wykres = FindViewById<Button>(Resource.Id.wykresyBtn);
+            //wykres = FindViewById<Button>(Resource.Id.wykresyBtn);
             ustawienia_para = FindViewById<Button>(Resource.Id.ustawieniaBtn);
-            wyjscie = FindViewById<Button>(Resource.Id.wyjścieBtn);
+            //wyjscie = FindViewById<Button>(Resource.Id.wyjścieBtn);
+            wyjscie = FindViewById<ImageButton>(Resource.Id.wyjścieBtn);
+            wykres = FindViewById<ImageButton>(Resource.Id.wykresyBtn);
 
-            timePLCCont = FindViewById<TextView>(Resource.Id.timeTxt);
+      //      < Button
 
-            Connect(Intent.GetStringExtra("url"), Intent.GetBooleanExtra("anonimowy", true), Intent.GetStringExtra("login"), Intent.GetStringExtra("haslo"));
+      //  android: text = "Wyjście"
+
+      //  android: layout_width = "350px"
+
+      //  android: layout_height = "350px"
+
+      //  android: bufferType = "normal"
+
+      //  android: clickable = "true"
+
+      //  android: layout_gravity = "right"
+
+      //  android: layout_marginLeft = "5dp"
+
+      //  android: id = "@+id/wyjścieBtn"
+      ///>
+
+             Connect(Intent.GetStringExtra("url"), Intent.GetBooleanExtra("anonimowy", true), Intent.GetStringExtra("login"), Intent.GetStringExtra("haslo"));
 
             TimerInit();
 
             jazda.Click += (sender, e) =>
             {
-               // timer.Stop();
                 Intent intent = new Intent(this, typeof(TrybyJazdyKlasa));
                 intent.PutExtra("url", Intent.GetStringExtra("url"));
                 intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
@@ -103,7 +120,7 @@ namespace PracaInzynierska
 
             wyjscie.Click += (sender, e) =>
             {
-               // timer.Stop();
+              
                 this.Finish();
             };
 
@@ -116,28 +133,13 @@ namespace PracaInzynierska
                 intent.PutExtra("login", Intent.GetStringExtra("login"));
                 intent.PutExtra("haslo", Intent.GetStringExtra("haslo"));
                 StartActivity(intent);
-            };
-          
- 
+            }; 
         }
-
-      
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            if (sessionN.State.Equals(CommunicationState.Opened))
-            {
-                
-                zarzadzanie.ReadTimePLC(sessionN);
-                RunOnUiThread(() =>
-                {
-                    timePLCCont.Text = zarzadzanie.getTime();
-
-                });
-            }
+            if (sessionN.State.Equals(CommunicationState.Opened))  zarzadzanie.ReadTimePLC(sessionN);
         }
-
-
 
     }
 }

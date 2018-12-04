@@ -19,13 +19,10 @@
 		android:textSize = "18dp"
 	/>
 
-
 	<LinearLayout	
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:orientation ="vertical"
-		android:gravity = "bottom"
-		android:layout_marginBottom = "10dp"
 	>
 		
 	<TextView
@@ -42,10 +39,14 @@
 		<EditText
 			android:layout_width="250dp"
 			android:layout_height="wrap_content"
-			android:text = "192.168.0.17"
+			android:text = ""
 			android:id="@+id/ipAdresEB"
 			android:layout_gravity = "center"
 			android:gravity = "center"
+			android:lines="1"
+			android:maxLength="15"
+			android:maxLines="1"
+			android:inputType="none|textWebEditText" 
 		 />
 	
 	<TextView
@@ -59,14 +60,17 @@
 			android:id = "@+id/portTxt"
 			android:textColor="#ff000000" 
 	/>
-
-	<EditText
-		android:layout_width="250dp"
-		android:layout_height="wrap_content"
-		android:text = "4840"
-		android:id="@+id/portEB"
-		android:layout_gravity = "center"
-		android:gravity = "center"
+		<EditText
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:text = ""
+			android:id="@+id/portEB"
+			android:layout_gravity = "center"
+			android:gravity = "center"
+			android:lines="1"
+			android:maxLength="8"
+			android:maxLines="1"
+			android:numeric="integer" 
 	/>
 		
 	<TextView
@@ -80,14 +84,17 @@
 			android:id = "@+id/endPointURLTxt"
 			android:textColor="#ff000000" 
 	/>
-
-	<EditText
-		android:layout_width="250dp"
-		android:layout_height="wrap_content"	
-		android:text = "opc.tcp"
-		android:id="@+id/endPointURLEB"
-		android:layout_gravity = "center"
-		android:gravity = "center"
+		<EditText
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:text = ""
+			android:id="@+id/endPointURLEB"
+			android:layout_gravity = "center"
+			android:gravity = "center"
+			android:maxLength="15"
+			android:maxLines="1"
+			android:lines="1"
+			android:inputType="none|textUri" 
 	/>
 
 	<CheckBox
@@ -106,7 +113,7 @@
 		android:layout_height="wrap_content"
 		android:layout_marginRight = "10dp"
 		android:layout_marginLeft = "10dp"
-		android:layout_marginTop = "20dp"
+		android:layout_marginTop = "15dp"
 		android:id="@+id/radioGroup1">
 
 		<RadioButton
@@ -140,15 +147,16 @@
 			android:id = "@+id/loginTxt"
 			android:textColor="#ff000000" 
 	/>
-
-	<EditText
-			android:layout_width="150dp"
-			android:layout_height="wrap_content"
-			android:text = "Admin"
-			android:id="@+id/loginEB"
-			android:gravity = "center"
-			android:layout_marginRight="8dp" 
-			android:enabled = "false"
+			<EditText
+				android:layout_width="150dp"
+				android:layout_height="wrap_content"
+				android:text = ""
+				android:id="@+id/loginEB"
+				android:gravity = "center"
+				android:layout_marginRight="8dp"
+				android:enabled = "false"
+				android:maxLines="1"
+				android:maxLength="20" 
 	/>
 
 	</LinearLayout>
@@ -169,16 +177,18 @@
 				android:id = "@+id/hasloTxt"
 				android:textColor="#ff000000" 
 	/>
-		<EditText
-			android:layout_width="150dp"
-			android:layout_height="wrap_content"
-			android:text = "admin"
-			android:id="@+id/hasloEB"
-			android:gravity = "center"
-			android:layout_marginRight="8dp"
-			android:enabled = "false"
-			android:inputType="none|textPassword"
-			android:password="false" 
+			<EditText
+				android:layout_width="150dp"
+				android:layout_height="wrap_content"
+				android:text = ""
+				android:id="@+id/hasloEB"
+				android:gravity = "center"
+				android:layout_marginRight="8dp"
+				android:enabled = "false"
+				android:inputType="none|textPassword"
+				android:password="false"
+				android:maxLength="20"
+				android:maxLines="1" 
 			
 		/>
 

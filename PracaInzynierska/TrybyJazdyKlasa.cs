@@ -62,7 +62,9 @@ namespace PracaInzynierska
             var adapter = new ViewPagerAdapter(SupportFragmentManager);
             
             adapter.addFragment(info, "Informacje");
-            adapter.addFragment(para, "Parametry");    
+            
+            adapter.addFragment(para, "Parametry");
+            
             adapter.addFragment(ster,"Sterowanie");
             viewPager.Adapter = adapter;
         }
