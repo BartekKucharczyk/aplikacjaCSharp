@@ -4,16 +4,18 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="Charts" android:screenOrientation="landscape" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Charts" />
+    <activity android:label="Charts" android:screenOrientation="portrait" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Charts" />
     <activity android:label="Control" android:screenOrientation="portrait" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Control" />
     <activity android:label="Diagnosis" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Diagnosis" />
+    <activity android:label="JogOperator" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.JogOperator" />
     <activity android:label="Drive - PLC Diagnostic" android:theme="@style/AppTheme" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Oś 1" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.TrybyJazdyKlasa" />
+    <activity android:label="Settings" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.Settings" />
+    <activity android:label="Axis 1" android:name="md512ddb9f02b30db8dd03f1d8959a1a0ac.TrybyJazdyKlasa" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="PracaInzynierska.PracaInzynierska.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

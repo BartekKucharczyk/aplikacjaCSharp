@@ -15,10 +15,9 @@ namespace PracaInzynierska
     {
         Timer timer;
         UaTcpSessionChannel sessionN;
-        Button jazda, trybReczny, diagnostyka,  ustawienia_para;//wykres, wyjscie,
+        Button jazda, trybReczny, diagnostyka, ustawienia_para, wykres, wyjscie;
         ZarzadzanieSterownikiem zarzadzanie = new ZarzadzanieSterownikiem();
-        ImageButton wykres, wyjscie;
-
+      
         public async void Connect(string url, bool anonimowe, string login, string haslo)
         {
            ConnectionWithServer conn = new ConnectionWithServer();
@@ -41,11 +40,11 @@ namespace PracaInzynierska
                 await sessionN.OpenAsync();
                 zarzadzanie.StartStopTime(sessionN, true);
             }
-            catch (ServiceResultException ex)
+            catch (ServiceResultException)
             {
                 await sessionN.AbortAsync();
             }
-            catch (InvalidOperationException ex)
+            catch (InvalidOperationException)
             {
                 await sessionN.AbortAsync();
             }
@@ -68,38 +67,27 @@ namespace PracaInzynierska
             jazda = FindViewById<Button>(Resource.Id.trybyJazdyBtn);
             trybReczny = FindViewById<Button>(Resource.Id.trybRecznyBtn);
             diagnostyka = FindViewById<Button>(Resource.Id.diagnostykaBtn);
-            //wykres = FindViewById<Button>(Resource.Id.wykresyBtn);
+            wykres = FindViewById<Button>(Resource.Id.wykresyBtn);
             ustawienia_para = FindViewById<Button>(Resource.Id.ustawieniaBtn);
-            //wyjscie = FindViewById<Button>(Resource.Id.wyjścieBtn);
-            wyjscie = FindViewById<ImageButton>(Resource.Id.wyjścieBtn);
-            wykres = FindViewById<ImageButton>(Resource.Id.wykresyBtn);
-
-      //      < Button
-
-      //  android: text = "Wyjście"
-
-      //  android: layout_width = "350px"
-
-      //  android: layout_height = "350px"
-
-      //  android: bufferType = "normal"
-
-      //  android: clickable = "true"
-
-      //  android: layout_gravity = "right"
-
-      //  android: layout_marginLeft = "5dp"
-
-      //  android: id = "@+id/wyjścieBtn"
-      ///>
-
-             Connect(Intent.GetStringExtra("url"), Intent.GetBooleanExtra("anonimowy", true), Intent.GetStringExtra("login"), Intent.GetStringExtra("haslo"));
+            wyjscie = FindViewById<Button>(Resource.Id.wyjścieBtn);
+                 
+            Connect(Intent.GetStringExtra("url"), Intent.GetBooleanExtra("anonimowy", true), Intent.GetStringExtra("login"), Intent.GetStringExtra("haslo"));
 
             TimerInit();
-
+           
             jazda.Click += (sender, e) =>
             {
                 Intent intent = new Intent(this, typeof(TrybyJazdyKlasa));
+                intent.PutExtra("url", Intent.GetStringExtra("url"));
+                intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
+                intent.PutExtra("login", Intent.GetStringExtra("login"));
+                intent.PutExtra("haslo", Intent.GetStringExtra("haslo"));
+                StartActivity(intent);
+            };
+
+            trybReczny.Click += (sender, e) =>
+            {
+                Intent intent = new Intent(this, typeof(JogOperator));
                 intent.PutExtra("url", Intent.GetStringExtra("url"));
                 intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
                 intent.PutExtra("login", Intent.GetStringExtra("login"));
@@ -133,7 +121,19 @@ namespace PracaInzynierska
                 intent.PutExtra("login", Intent.GetStringExtra("login"));
                 intent.PutExtra("haslo", Intent.GetStringExtra("haslo"));
                 StartActivity(intent);
-            }; 
+            };
+
+            ustawienia_para.Click += (sender, e) =>
+            {
+                timer.Stop();
+                Intent intent = new Intent(this, typeof(Settings));
+                intent.PutExtra("url", Intent.GetStringExtra("url"));
+                intent.PutExtra("anonimowy", Intent.GetBooleanExtra("anonimowy", true));
+                intent.PutExtra("login", Intent.GetStringExtra("login"));
+                intent.PutExtra("haslo", Intent.GetStringExtra("haslo"));
+                StartActivity(intent);
+            };
+
         }
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)

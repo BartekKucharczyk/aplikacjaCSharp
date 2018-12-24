@@ -7,6 +7,7 @@ using Workstation.ServiceModel.Ua;
 using Android.Content;
 using System.Timers;
 using Android.Preferences;
+using Android.Views;
 
 namespace PracaInzynierska
 {
@@ -18,6 +19,8 @@ namespace PracaInzynierska
         EditText ipAdress, portEd, endpoinUrlET, login, haslo;
         Timer timer;
         CheckBox remember;
+        ProgressBar connectingProgresBar;
+        Dialog dialog;
         bool tryConnect = false;
 
         UaTcpSessionChannel session;
@@ -37,11 +40,12 @@ namespace PracaInzynierska
 
             anonimowy = FindViewById<RadioButton>(Resource.Id.anonimowyRB);
             uzytkownik = FindViewById<RadioButton>(Resource.Id.uzytkownikRB);
+            
         }
         public void TimerInit()
         {
             timer = new Timer();
-            timer.Interval = 50;
+            timer.Interval = 100;
             timer.Enabled = true;
             timer.Elapsed += Timer_Elapsed;
         }
@@ -60,11 +64,10 @@ namespace PracaInzynierska
             alert.SetTitle("Incorrect parameter");
             alert.SetMessage("One of the objects may be incorrect. Correct this and try to connect again.");
             alert.SetPositiveButton("Ok, I understand", (senderAlert, args) => {
-                //Toast.MakeText(this, "Deleted!", ToastLength.Short).Show();
-            });
+                 });
 
-            Dialog dialog = alert.Create();
-            dialog.Show();
+            Dialog dialogs = alert.Create();
+            dialogs.Show();
         }
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -73,6 +76,7 @@ namespace PracaInzynierska
             SetContentView(Resource.Layout.activity_main);
              
             InitScreen();
+            ConnectingProgress();
             InitValue();
             TimerInit();
 
@@ -94,8 +98,9 @@ namespace PracaInzynierska
                 session = connection.GetSesssion(userIdentity, discoveryUrl);
              
                 tryConnect = true;
+                connectingProgresBar.Progress = 0;
+                dialog.Show();
                 timer.Start();
-                
             };
 
             anonimowy.Click += (sender, e) =>
@@ -113,6 +118,7 @@ namespace PracaInzynierska
 
         public void Connected()
         {
+            Toast.MakeText(this, "Connected", ToastLength.Short).Show();
                 Intent intent = new Intent(this, typeof(Control));
                 intent.PutExtra("url", endpoinUrlET.Text + "://" + ipAdress.Text + ":" + portEd.Text);
                 intent.PutExtra("anonimowy", anonimowy.Checked);
@@ -130,9 +136,25 @@ namespace PracaInzynierska
                 tryConnect = false;
             }
 
+            if (dialog.IsShowing)
+            {
+                RunOnUiThread(() =>
+                {
+                    connectingProgresBar.IncrementProgressBy(1);
+
+                    if(connectingProgresBar.Progress == 120)
+                    {
+                          dialog.Dismiss();
+                          polacz.Enabled = true;
+                          ErrorAlert();
+                         timer.Stop();
+                    }
+                });
+            }
+
             if (session.State.ToString().Equals("Opened"))
             {
-                timer.Stop();
+                
 
                 if(remember.Checked)
                 {
@@ -143,24 +165,48 @@ namespace PracaInzynierska
                     editor.PutString("endpointURL_server_OPC", endpoinUrlET.Text.ToString());
                     editor.Apply();
                 }
-
+                 timer.Stop();
                 RunOnUiThread(() =>
                 {
+                    dialog.Dismiss();
                     Connected();
                 });
+
+               
             }
             else if(session.State.ToString().Equals("Faulted"))
             {
-                timer.Stop();
+                
                 RunOnUiThread(() =>
                 {
+                    dialog.Dismiss();
                     polacz.Enabled = true;
                     ErrorAlert();
                 });
+                timer.Stop();
             }
-
-
         }
 
+        private void ConnectingProgress()
+        {
+            LayoutInflater layoutInflater = LayoutInflater.From(this);
+            View progressDialogBox = layoutInflater.Inflate(Resource.Layout.progres_dialog_box, null);
+            connectingProgresBar = progressDialogBox.FindViewById<ProgressBar>(Resource.Id.progressBar1);
+            Android.App.AlertDialog.Builder alertDialogBuilder = new Android.App.AlertDialog.Builder(this);
+            alertDialogBuilder.SetView(progressDialogBox);
+            alertDialogBuilder.SetCancelable(false);
+            alertDialogBuilder.SetNegativeButton("Cancel", (senderAlert, args) => {
+                timer.Stop();
+                polacz.Enabled = true;
+                dialog.Dismiss();
+
+            });
+            connectingProgresBar.Max = 120;
+            connectingProgresBar.Progress = 0;
+            
+            dialog = alertDialogBuilder.Create();
+            
+            
+        }
     }
 }

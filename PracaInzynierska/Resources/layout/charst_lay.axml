@@ -1,29 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
-    android:layout_width="match_parent"  
-    android:layout_height="match_parent"
-	>  
   <LinearLayout  
       android:orientation="vertical"  
       android:layout_width="match_parent"  
-      android:layout_height="match_parent">  
+      android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" >  
+
+	
+		<TextView
+			android:text="Configuration"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:textColor="#ff000000"
+			android:paddingLeft = "10dp"
+			android:background="#ffc1c1c1" />
+		
+		<LinearLayout  
+      android:orientation="horizontal"  
+      android:layout_width="match_parent"  
+      android:layout_height="wrap_content"
+	  android:layout_marginTop = "8dp"
+			>
+			
+
+		<TextView
+			android:text="Parameter:"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView2"
+			android:textColor="#ff000000"
+			android:paddingLeft = "5dp"
+			android:layout_weight = "1"/>
+
+			<TextView
+				android:text="empty"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/parameterTxt1" 
+				android:textColor="#ff000000"
+				android:layout_weight = "1"/>  
+
+			<Button
+				android:text="Change"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/changeBtn1" 
+				android:textColor="#ff000000"
+				android:layout_marginRight = "5dp"/>  
+
+	</LinearLayout>
+
+	<TextView
+			android:text="Commands"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:textColor="#ff000000"
+			android:paddingLeft = "10dp"
+			android:background="#ffc1c1c1"
+			android:layout_marginTop = "10dp"/>
+
+		 <LinearLayout  
+      android:orientation="horizontal"  
+      android:layout_width="match_parent"  
+      android:layout_height="wrap_content">  
 
 	<Button
 		android:layout_width="wrap_content"  
 		android:layout_height="match_parent"
-		android:text = "Get"
-		android:id="@+id/btncos"
+		android:text = "Load"
+		android:id="@+id/loadChartBtn"
 	/>
-	
+
+	<Button
+		android:layout_width="wrap_content"  
+		android:layout_height="match_parent"
+		android:text = "Refresh"
+		android:id="@+id/refreshBtnCh"
+		android:visibility = "invisible"
+	/>
+
+	<Button
+		android:layout_width="wrap_content"  
+		android:layout_height="match_parent"
+		android:text = "Scores"
+		android:id="@+id/tableChartBtn"
+		android:enabled = "false"
+	/>
+
+	</LinearLayout>
+		
+		<TextView
+			android:text="Plot"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:textColor="#ff000000"
+			android:paddingLeft = "10dp"
+			android:background="#ffc1c1c1" />
+
 
 	<OxyPlot.Xamarin.Android.PlotView
-    android:id="@+id/plot_view"
+    android:id="@+id/plot_view1"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
-	
-	/>
-
-    
+    android:layout_height="match_parent"
+	/>    
  
   </LinearLayout>  
-</ScrollView>  

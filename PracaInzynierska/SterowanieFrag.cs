@@ -9,8 +9,9 @@ namespace PracaInzynierska
     {
 
         public event EventHandler OptionButtonWasClicked;
-        
-        Button zasilanie,zasilanieOff,bazowanie,stopOn,mAdditive,mVelocity,mAbsolute,wstecz,stopOff;
+
+        Button powerOn, powerOff, home, errorReset,update,updateCyc;
+        ToggleButton mAdditive, mVelocity, mAbsolute, stop,cycPos, cycVelo, cycTorq;
         View v;
 
         public override void OnCreate(Bundle savedInstanceState)
@@ -22,35 +23,61 @@ namespace PracaInzynierska
         {
             v = inflater.Inflate(Resource.Layout.sterowanieTJFrag, container, false);
 
-            zasilanie = v.FindViewById<Button>(Resource.Id.zasilanieBtn);
-            bazowanie = v.FindViewById<Button>(Resource.Id.homeBtn);
-            stopOn = v.FindViewById<Button>(Resource.Id.stopOnBtn);
-            stopOff = v.FindViewById<Button>(Resource.Id.stopOffBtn);
-            mAdditive = v.FindViewById<Button>(Resource.Id.mAdditiveBtn);
-            mAbsolute = v.FindViewById<Button>(Resource.Id.mAbsoluteBtn);
-            mVelocity = v.FindViewById<Button>(Resource.Id.mVelocityBtn);
-            zasilanieOff = v.FindViewById<Button>(Resource.Id.zasilanieOffBtn);
-            wstecz = v.FindViewById<Button>(Resource.Id.wsteczBtn);
+            powerOn = v.FindViewById<Button>(Resource.Id.powerBtn);
+            powerOff = v.FindViewById<Button>(Resource.Id.powerOffBtn);
+            home = v.FindViewById<Button>(Resource.Id.homeBtn);
+            update = v.FindViewById<Button>(Resource.Id.updateBtn);
+            errorReset = v.FindViewById<Button>(Resource.Id.resetErrBtn);
 
-            zasilanie.Click += BtnOption_Click;
-            zasilanieOff.Click += BtnOption_Click;
-            bazowanie.Click += Bazowanie_Click;
+            stop = v.FindViewById<ToggleButton>(Resource.Id.stopBtn);
+            mAdditive = v.FindViewById<ToggleButton>(Resource.Id.mAdditiveBtn);
+            mAbsolute = v.FindViewById<ToggleButton>(Resource.Id.mAbsoluteBtn);
+            mVelocity = v.FindViewById<ToggleButton>(Resource.Id.mVelocityBtn);
+            
+            cycPos = v.FindViewById<ToggleButton>(Resource.Id.cyclicPostionTBtn);
+            cycVelo = v.FindViewById<ToggleButton>(Resource.Id.cyclicVelocityTBtn);
+            cycTorq = v.FindViewById<ToggleButton>(Resource.Id.cyclicTorqueTBtn);
+            updateCyc = v.FindViewById<Button>(Resource.Id.updateCyclicSet);
+
+            powerOn.Click += BtnOption_Click;
+            powerOff.Click += BtnOption_Click;
+            home.Click += Bazowanie_Click;
+            update.Click += Update_Click;
+            errorReset.Click += Update_Click;
+
+            stop.Click += Stop_Click;
             mAdditive.Click += MAdditive_Click;
             mAbsolute.Click += MAbsolute_Click;
             mVelocity.Click += MVelocity_Click;
-            stopOn.Click += Stop_Click;
-            stopOff.Click += StopOff_Click;
-            wstecz.Click += Wstecz_Click;
 
+            cycPos.Click += CycPos_Click;
+            cycVelo.Click += CycVelo_Click;
+            cycTorq.Click += CycTorq_Click;
+            updateCyc.Click += UpdateCyc_Click;
             return v;
         }
 
-        private void StopOff_Click(object sender, EventArgs e)
+        private void UpdateCyc_Click(object sender, EventArgs e)
         {
             OptionButtonWasClicked(sender, e);
         }
 
-        private void Wstecz_Click(object sender, EventArgs e)
+        private void Update_Click(object sender, EventArgs e)
+        {
+            OptionButtonWasClicked(sender, e);
+        }
+
+        private void CycTorq_Click(object sender, EventArgs e)
+        {
+            OptionButtonWasClicked(sender, e);
+        }
+
+        private void CycVelo_Click(object sender, EventArgs e)
+        {
+            OptionButtonWasClicked(sender, e);
+        }
+
+        private void CycPos_Click(object sender, EventArgs e)
         {
             OptionButtonWasClicked(sender, e);
         }
@@ -82,11 +109,8 @@ namespace PracaInzynierska
 
         private void BtnOption_Click(object sender, EventArgs e)
         {
-            // Fire the event to the MainActivity
             OptionButtonWasClicked(sender, e);
         }
-
-
 
     }
 }

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 >
+
 	<LinearLayout
 		android:orientation="vertical"
 		android:layout_width="match_parent"
@@ -16,7 +17,7 @@
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text ="----- Aktywność -----"
+			android:text ="----- MpAxisBasic -----"
 			android:textColor="#ff000000"
 			android:id ="@+id/actywnoscTxt"
 			android:textSize ="12dp"
@@ -29,7 +30,7 @@
 			android:layout_marginBottom = "10dp"
 	>
 			<Button
-				android:text="Napęd aktywny"
+				android:text="Active"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/napedActBtn"
@@ -41,7 +42,7 @@
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text ="------- Zasilanie -------"
+			android:text ="------- Power supply -------"
 			android:textColor="#ff000000"
 			android:id ="@+id/powerTxt"
 			android:textSize ="12dp"
@@ -54,7 +55,7 @@
 			android:layout_marginBottom = "10dp"
 	>
 			<Button
-				android:text="Włączone"
+				android:text="ON"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/ispowerOn"
@@ -62,7 +63,7 @@
 				android:clickable = "false"
 	/>
 			<Button
-				android:text="Wyłączone"
+				android:text="OFF"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/ispowerOff"
@@ -73,7 +74,7 @@
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text ="----- Bazowanie -----"
+			android:text ="----- Home -----"
 			android:textColor="#ff000000"
 			android:id ="@+id/bazowanieTxt"
 			android:textSize ="12dp"	
@@ -86,7 +87,7 @@
 			android:layout_marginBottom = "10dp"
 	>
 			<Button
-				android:text="Napęd zbazowany"
+				android:text="Is homed"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/isHomed"
@@ -97,13 +98,13 @@
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text ="----- Pozycja i prędkość -----"
+			android:text ="----- Position and velocity -----"
 			android:textColor="#ff000000"
 			android:textSize ="12dp"
 			android:id ="@+id/pozAndpredTxt"
 	/>
 		<Button
-			android:text="Napęd w ruchu"
+			android:text="Move active"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:id="@+id/moveActive"
@@ -117,7 +118,7 @@
 		
 	>
 			<Button
-				android:text="Pozycja zadana osiągnięta"
+				android:text="In position"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/pozZadOs"
@@ -125,7 +126,7 @@
 				android:clickable = "false"
 	/>
 			<Button
-				android:text="Prędkość zadana osiągnięta"
+				android:text="In velocity"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/preZadOs"
@@ -134,7 +135,7 @@
 	/>
 		</LinearLayout>
 		<Button
-			android:text="Napęd zatrzymany"
+			android:text="Stopped"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:id="@+id/stoppedN"
@@ -144,7 +145,7 @@
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text ="----- Błędy -----"
+			android:text ="----- Errors -----"
 			android:textColor="#ff000000"
 			android:id ="@+id/bledy"
 			android:textSize ="12dp"
@@ -157,14 +158,15 @@
 			android:layout_marginBottom = "10dp"
 	>
 			<Button
-				android:text="Błąd serwonapędu"
+				android:text="Error"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/napInError"
 				android:layout_weight = "1"
 				android:clickable = "false"
-	/>
+				/>
 		</LinearLayout>
+
 		<LinearLayout
 			android:orientation="horizontal"
 			android:layout_width="match_parent"
@@ -173,7 +175,7 @@
 			android:layout_marginBottom = "10dp"
 	>
 			<TextView
-				android:text="ID statusu:"
+				android:text="Status ID:"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:id="@+id/textView1"
@@ -196,11 +198,122 @@
 		/>
 		</LinearLayout>
 		<Button
-			android:text="Reset błędu włączony"
+			android:text="In reset"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:id="@+id/resetON"
 			android:clickable = "false"
+			android:layout_marginBottom = "12dp"
 	/>
+
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="----- MpCyclicSet -----"
+			android:textColor="#ff000000"
+			android:id ="@+id/cyclicSetTxt"
+			android:textSize ="12dp"
+			
+	/>
+
+	<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+	<Button
+				android:text="Active"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/cyclicSetActiveFB"
+				android:layout_weight = "1"
+				android:clickable = "false"	
+				android:layout_marginTop = "10dp"
+	/>
+
+	<Button
+				android:text="Cyclic Set Active"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/cyclicSetActive"
+				android:layout_weight = "1"
+				android:clickable = "false"	
+				android:layout_marginTop = "10dp"
+	/>
+	
+	<Button
+				android:text="Command aborted"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/cmdAbortedBtn"
+				android:layout_weight = "1"
+				android:clickable = "false"	
+				android:layout_marginTop = "10dp"
+	/>
+
+	<Button
+				android:text="Command busy"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/cmdBusyBtn"
+				android:layout_weight = "1"
+				android:clickable = "false"	
+				android:layout_marginTop = "10dp"
+	/>
+
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text ="----- Errors -----"
+			android:textColor="#ff000000"
+			android:id ="@+id/bledy"
+			android:textSize ="12dp"
+			android:layout_marginTop = "10dp"
+	/>
+
+	<Button
+				android:text="Error"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/erroCyclicSet"
+				android:layout_weight = "1"
+				android:clickable = "false"	
+	/>
+	</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:layout_marginBottom = "10dp"
+	>
+			<TextView
+				android:text="Status ID:"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/statusCyclicsetId"
+				android:textColor="#ff000000"
+				android:textSize ="12dp"
+				android:layout_marginLeft = "20dp"
+		
+		/>
+			<EditText
+				android:inputType="textPersonName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/statusIDCycEdxt"
+				android:layout_weight = "1"
+				android:layout_marginLeft = "20dp"
+				android:layout_marginRight = "20dp"
+				android:cursorVisible = "false"
+				android:enabled = "false"
+				android:clickable = "false"
+		/>
+		</LinearLayout>
+
+
 	</LinearLayout>
 </ScrollView>

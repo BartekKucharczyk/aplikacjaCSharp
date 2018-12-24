@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Util;
+﻿using Android.OS;
 using Android.Views;
 using Android.Widget;
 
@@ -17,7 +8,8 @@ namespace PracaInzynierska
     {
 
         public Button napedAkt,powerOn,powerOff,napedZbazowany,pozycjaZad,predZad,bladNap,resetOnN,napedWruchu,zatrzymany;
-        public EditText StatusID;
+        public Button activCyc, errorCyc, cyclicSetAcitve, cyclicAborted, commandBusy;
+        public EditText StatusID,statusIDCyc;
 
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -40,6 +32,14 @@ namespace PracaInzynierska
             StatusID = v.FindViewById<EditText>(Resource.Id.statusIDEdxt);
             napedWruchu = v.FindViewById<Button>(Resource.Id.moveActive);
             zatrzymany = v.FindViewById<Button>(Resource.Id.stoppedN);
+
+            activCyc = v.FindViewById<Button>(Resource.Id.cyclicSetActiveFB);
+            errorCyc = v.FindViewById<Button>(Resource.Id.erroCyclicSet);
+            cyclicSetAcitve = v.FindViewById<Button>(Resource.Id.cyclicSetActive); 
+            cyclicAborted = v.FindViewById<Button>(Resource.Id.cmdAbortedBtn);
+            commandBusy = v.FindViewById<Button>(Resource.Id.cmdBusyBtn);
+            statusIDCyc = v.FindViewById<EditText>(Resource.Id.statusIDCycEdxt);
+
             return v;
         }
     }

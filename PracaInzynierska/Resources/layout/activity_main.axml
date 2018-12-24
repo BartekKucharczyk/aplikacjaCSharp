@@ -7,7 +7,7 @@
 	android:orientation ="vertical">
 	
 	<TextView
-		android:text="-- Diagnostyka i sterowanie --"
+		android:text="-- Diagnostic and control --"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginLeft = "10dp"
@@ -26,14 +26,14 @@
 	>
 		
 	<TextView
-			android:text="Adres IP serwera OPC UA:"
+			android:text="IP addreses OPC UA:"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginLeft = "10dp"
-			android:layout_marginRight = "10dp"
+			android:paddingLeft = "10dp"
 			android:layout_marginTop =" 30dp"
 			android:gravity = "left"
 			android:id = "@+id/adr_IPtxt"
+			android:background="#ffc1c1c1" 
 			android:textColor="#ff000000" 
 	/>
 		<EditText
@@ -50,14 +50,14 @@
 		 />
 	
 	<TextView
-			android:text="Port serwera OPC UA:"
+			android:text="Port:"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginLeft = "10dp"
-			android:layout_marginRight = "10dp"
 			android:layout_marginTop =" 2dp"
+			android:paddingLeft = "10dp"
 			android:gravity = "left"
 			android:id = "@+id/portTxt"
+			android:background="#ffc1c1c1" 
 			android:textColor="#ff000000" 
 	/>
 		<EditText
@@ -74,13 +74,13 @@
 	/>
 		
 	<TextView
-			android:text="Endpoint URL serwera OPC UA:"
+			android:text="Endpoint URL:"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginLeft = "10dp"
-			android:layout_marginRight = "10dp"
+			android:paddingLeft = "10dp"
 			android:layout_marginTop =" 2dp"
 			android:gravity = "left"
+			android:background="#ffc1c1c1" 
 			android:id = "@+id/endPointURLTxt"
 			android:textColor="#ff000000" 
 	/>
@@ -100,11 +100,21 @@
 	<CheckBox
 		android:layout_width="250dp"
 		android:layout_height="wrap_content"	
-		android:text = "Zapamiętaj parametry"
+		android:text = "Remember parameters"
 		android:layout_marginLeft = "5dp"
 		android:id = "@+id/rememberChB"
 	/>
 
+	<TextView
+				android:text="User options"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft = "10dp"
+				android:layout_marginTop =" 10dp"
+				android:id = "@+id/hasloTxt"
+				android:background="#ffc1c1c1" 
+				android:textColor="#ff000000" 
+	/>
 
 	<RadioGroup
 		android:minWidth="25px"
@@ -120,12 +130,12 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:checked="true"
-			android:text="Anonimowy użytkownik"
+			android:text="Annonymous user"
 			android:id="@+id/anonimowyRB" />
 		<RadioButton
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Zaloguj się na konto"
+			android:text="User account"
 			android:id="@+id/uzytkownikRB" />
 		
 	</RadioGroup>
@@ -168,7 +178,7 @@
 		android:gravity = "right"
 		>
 			<TextView
-				android:text="Hasło:"
+				android:text="Password:"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_marginLeft = "10dp"
@@ -195,7 +205,7 @@
 	</LinearLayout>
 
 	<Button
-		android:text="Połącz z serwerem"
+		android:text="Connect with server"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:minWidth="10dp"

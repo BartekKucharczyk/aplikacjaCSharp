@@ -50,6 +50,7 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Mono.Android.Export" />
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -61,18 +62,26 @@
     <Compile Include="Control.cs" />
     <Compile Include="Diagnosis.cs" />
     <Compile Include="InfoFrag.cs" />
+    <Compile Include="JogOperator.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyCustomListAdapter.cs" />
+    <Compile Include="MyCustomScoreAdapter.cs" />
     <Compile Include="OnelogClass.cs" />
     <Compile Include="ParametryFrag.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="scoreChart.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="SterowanieFrag.cs" />
     <Compile Include="TrybyJazdyKlasa.cs" />
     <Compile Include="ViewHolder.cs" />
+    <Compile Include="ViewHolderScore.cs" />
     <Compile Include="ViewPagerAdapter.cs" />
+    <Compile Include="ZarzadzanieCharts.cs" />
+    <Compile Include="ZarzadzanieJog.cs" />
     <Compile Include="ZarzadzanieLoggerem.cs" />
     <Compile Include="ZarzadzanieOsia.cs" />
+    <Compile Include="ZarzadzanieSettings.cs" />
     <Compile Include="ZarzadzanieSterownikiem.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -166,7 +175,39 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\progres_dialog_box.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\menu_chart.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\JogOperator_layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\configuratorChart.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\chartTable.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\scoreChartRow.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\settings_layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

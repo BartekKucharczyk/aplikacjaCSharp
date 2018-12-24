@@ -12,6 +12,7 @@ C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\Mo
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.Extensions.Primitives.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
+C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\Mono.Android.Export.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\OxyPlot.dll
 C:\Users\Bartłomiej\source\repos\PracaInzynierska\PracaInzynierska\obj\Debug\MonoAndroid81\android\assets\OxyPlot.Xamarin.Android.dll

@@ -17,7 +17,7 @@
 		android:gravity = "center"
 	>
 	<Button
-		android:text="Tryby jazdy"
+		android:text="Movement mode"
 		android:layout_width="350px"
 		android:layout_height="350px"
 		android:bufferType="normal"
@@ -28,7 +28,7 @@
 	 />
 
 	<Button
-		android:text="Tryby ręczny"
+		android:text="Jog operator"
 		android:layout_width="350px"
 		android:layout_height="350px"
 		android:bufferType="normal"
@@ -48,7 +48,7 @@
 		android:gravity = "center"
 	>
 	<Button
-		android:text="Diagnostyka"
+		android:text="Diagnostic"
 		android:layout_width="350px"
 		android:layout_height="350px"
 		android:bufferType="normal"
@@ -59,7 +59,7 @@
 	 />
 
 	<Button
-		android:text="Wykresy"
+		android:text="Charts"
 		android:layout_width="350px"
 		android:layout_height="350px"
 		android:bufferType="normal"
@@ -111,7 +111,7 @@
 		android:gravity = "center"
 	>
 	<Button
-		android:text="Ustawienia"
+		android:text="Settings"
 		android:layout_width="350px"
 		android:layout_height="350px"
 		android:bufferType="normal"
@@ -120,17 +120,17 @@
 		android:layout_marginRight = "5dp"
 		android:id ="@+id/ustawieniaBtn"
 	 />
-		<ImageButton
-			android:src = "@mipmap/ic_launcher"
-			android:text="Wyjście"
-			android:layout_width="350px"
-			android:layout_height="350px"
-			android:bufferType="normal"
-			android:clickable="true"
-			android:layout_gravity ="right"
-			android:layout_marginLeft = "5dp"
-			android:id ="@+id/wyjścieBtn"
-	 />
+	
+	<Button
+       android:text = "Exit"
+       android:layout_width = "350px"
+       android:layout_height = "350px"
+       android:bufferType = "normal"
+       android:clickable = "true"
+       android:layout_gravity = "right"
+       android:layout_marginLeft = "5dp"
+       android:id = "@+id/wyjścieBtn"
+      />
 
 	</LinearLayout>
 	

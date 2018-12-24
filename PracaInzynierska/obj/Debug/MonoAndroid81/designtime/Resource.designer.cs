@@ -1301,14 +1301,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F060026
 			public const int button_material_light = 2131099686;
 			
-			// aapt resource value: 0x7F040004
-			public const int colorAccent = 2130968580;
+			// aapt resource value: 0x7F050004
+			public const int colorAccent = 2131034116;
 			
-			// aapt resource value: 0x7F040002
-			public const int colorPrimary = 2130968578;
+			// aapt resource value: 0x7F050002
+			public const int colorPrimary = 2131034114;
 			
-			// aapt resource value: 0x7F040003
-			public const int colorPrimaryDark = 2130968579;
+			// aapt resource value: 0x7F050003
+			public const int colorPrimaryDark = 2131034115;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -1370,8 +1370,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F040005
-			public const int ic_launcher_background = 2130968581;
+			// aapt resource value: 0x7F050005
+			public const int ic_launcher_background = 2131034117;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -2306,6 +2306,18 @@ namespace PracaInzynierska
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7F010106
+			public const int accelerationInEdt = 2130772230;
+			
+			// aapt resource value: 0x7F010081
+			public const int accelerationJog = 2130772097;
+			
+			// aapt resource value: 0x7F010082
+			public const int accelerationJogNew = 2130772098;
+			
+			// aapt resource value: 0x7F010105
+			public const int accelerationSetEdt = 2130772229;
+			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
 			
@@ -2366,11 +2378,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0014
 			public const int activity_chooser_view_content = 2131492884;
 			
-			// aapt resource value: 0x7F010036
-			public const int actywnoscTxt = 2130772022;
+			// aapt resource value: 0x7F010052
+			public const int actywnoscTxt = 2130772050;
 			
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
+			
+			// aapt resource value: 0x7F010035
+			public const int addBtnChart = 2130772021;
 			
 			// aapt resource value: 0x7F010002
 			public const int adr_IPtxt = 2130771970;
@@ -2378,8 +2393,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F010010
-			public const int anonimowyRB = 2130771984;
+			// aapt resource value: 0x7F010011
+			public const int anonimowyRB = 2130771985;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -2387,11 +2402,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
-			// aapt resource value: 0x7F010042
-			public const int bazowanieTxt = 2130772034;
+			// aapt resource value: 0x7F010058
+			public const int bazowanieTxt = 2130772056;
 			
-			// aapt resource value: 0x7F010049
-			public const int bledy = 2130772041;
+			// aapt resource value: 0x7F010065
+			public const int bledy = 2130772069;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
@@ -2399,8 +2414,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F010017
-			public const int btncos = 2130771991;
+			// aapt resource value: 0x7F010109
+			public const int btnSetDriveParams = 2130772233;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2411,11 +2426,23 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C001D
 			public const int center = 2131492893;
 			
+			// aapt resource value: 0x7F010020
+			public const int changeBtn1 = 2130772000;
+			
 			// aapt resource value: 0x7F0C001E
 			public const int checkbox = 2131492894;
 			
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
+			
+			// aapt resource value: 0x7F010072
+			public const int cmdAbortedBtn = 2130772082;
+			
+			// aapt resource value: 0x7F010073
+			public const int cmdBusyBtn = 2130772083;
+			
+			// aapt resource value: 0x7F010117
+			public const int connectingOrLoading = 2130772247;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
@@ -2432,8 +2459,38 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F010033
-			public const int dateTxtView = 2130772019;
+			// aapt resource value: 0x7F010134
+			public const int cyclicPostionTBtn = 2130772276;
+			
+			// aapt resource value: 0x7F010071
+			public const int cyclicSetActive = 2130772081;
+			
+			// aapt resource value: 0x7F010070
+			public const int cyclicSetActiveFB = 2130772080;
+			
+			// aapt resource value: 0x7F010069
+			public const int cyclicSetTxt = 2130772073;
+			
+			// aapt resource value: 0x7F010136
+			public const int cyclicTorqueTBtn = 2130772278;
+			
+			// aapt resource value: 0x7F010135
+			public const int cyclicVelocityTBtn = 2130772277;
+			
+			// aapt resource value: 0x7F010049
+			public const int dateTxtView = 2130772041;
+			
+			// aapt resource value: 0x7F010108
+			public const int decelerationInEdt = 2130772232;
+			
+			// aapt resource value: 0x7F010083
+			public const int decelerationJog = 2130772099;
+			
+			// aapt resource value: 0x7F010084
+			public const int decelerationJogNew = 2130772100;
+			
+			// aapt resource value: 0x7F010107
+			public const int decelerationSetEdt = 2130772231;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
@@ -2441,8 +2498,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
-			// aapt resource value: 0x7F010035
-			public const int descTxtView = 2130772021;
+			// aapt resource value: 0x7F010051
+			public const int descTxtView = 2130772049;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2459,23 +2516,20 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F010021
-			public const int diagnostykaBtn = 2130772001;
+			// aapt resource value: 0x7F010038
+			public const int diagnostykaBtn = 2130772024;
 			
-			// aapt resource value: 0x7F010061
-			public const int editText10 = 2130772065;
+			// aapt resource value: 0x7F010100
+			public const int distanceInEdt = 2130772224;
 			
-			// aapt resource value: 0x7F010063
-			public const int editText12 = 2130772067;
-			
-			// aapt resource value: 0x7F010065
-			public const int editText14 = 2130772069;
-			
-			// aapt resource value: 0x7F010059
-			public const int editText8 = 2130772057;
+			// aapt resource value: 0x7F010099
+			public const int distanceSetEdt = 2130772121;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
+			
+			// aapt resource value: 0x7F010088
+			public const int enableJogFunChb = 2130772104;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
@@ -2489,8 +2543,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
 			
-			// aapt resource value: 0x7F010032
-			public const int errorIdTextView = 2130772018;
+			// aapt resource value: 0x7F010074
+			public const int erroCyclicSet = 2130772084;
+			
+			// aapt resource value: 0x7F010048
+			public const int errorIdTextView = 2130772040;
 			
 			// aapt resource value: 0x7F0C0030
 			public const int expanded_menu = 2131492912;
@@ -2498,8 +2555,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F010055
-			public const int fghj = 2130772053;
+			// aapt resource value: 0x7F010092
+			public const int fghj = 2130772114;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2516,14 +2573,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010015
 			public const int hasloEB = 2130771989;
 			
-			// aapt resource value: 0x7F010014
-			public const int hasloTxt = 2130771988;
+			// aapt resource value: 0x7F010009
+			public const int hasloTxt = 2130771977;
 			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F010068
-			public const int homeBtn = 2130772072;
+			// aapt resource value: 0x7F010127
+			public const int homeBtn = 2130772263;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -2531,8 +2588,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F010031
-			public const int idTextView = 2130772017;
+			// aapt resource value: 0x7F010025
+			public const int idScore = 2130772005;
+			
+			// aapt resource value: 0x7F010047
+			public const int idTextView = 2130772039;
 			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
@@ -2543,14 +2603,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010003
 			public const int ipAdresEB = 2130771971;
 			
-			// aapt resource value: 0x7F010043
-			public const int isHomed = 2130772035;
+			// aapt resource value: 0x7F010059
+			public const int isHomed = 2130772057;
 			
-			// aapt resource value: 0x7F010041
-			public const int ispowerOff = 2130772033;
+			// aapt resource value: 0x7F010057
+			public const int ispowerOff = 2130772055;
 			
-			// aapt resource value: 0x7F010040
-			public const int ispowerOn = 2130772032;
+			// aapt resource value: 0x7F010056
+			public const int ispowerOn = 2130772054;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -2570,29 +2630,35 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
-			// aapt resource value: 0x7F010037
-			public const int linearLayout1 = 2130772023;
+			// aapt resource value: 0x7F010053
+			public const int linearLayout1 = 2130772051;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
+			// aapt resource value: 0x7F010028
+			public const int listSummit = 2130772008;
+			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F010034
-			public const int loggerList = 2130772020;
+			// aapt resource value: 0x7F010021
+			public const int loadChartBtn = 2130772001;
+			
+			// aapt resource value: 0x7F010050
+			public const int loggerList = 2130772048;
+			
+			// aapt resource value: 0x7F010014
+			public const int loginEB = 2130771988;
 			
 			// aapt resource value: 0x7F010013
-			public const int loginEB = 2130771987;
+			public const int loginTxt = 2130771987;
 			
-			// aapt resource value: 0x7F010012
-			public const int loginTxt = 2130771986;
+			// aapt resource value: 0x7F010130
+			public const int mAbsoluteBtn = 2130772272;
 			
-			// aapt resource value: 0x7F010069
-			public const int mAbsoluteBtn = 2130772073;
-			
-			// aapt resource value: 0x7F010071
-			public const int mAdditiveBtn = 2130772081;
+			// aapt resource value: 0x7F010131
+			public const int mAdditiveBtn = 2130772273;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2600,35 +2666,38 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
+			// aapt resource value: 0x7F010141
+			public const int menuShare = 2130772289;
+			
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
-			// aapt resource value: 0x7F010045
-			public const int moveActive = 2130772037;
-			
-			// aapt resource value: 0x7F010072
-			public const int mTorqueBtn = 2130772082;
+			// aapt resource value: 0x7F010061
+			public const int moveActive = 2130772065;
 			
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F010070
-			public const int mVelocityBtn = 2130772080;
+			// aapt resource value: 0x7F010132
+			public const int mVelocityBtn = 2130772274;
 			
-			// aapt resource value: 0x7F010028
-			public const int nameOfLoogbook = 2130772008;
+			// aapt resource value: 0x7F010044
+			public const int nameOfLoogbook = 2130772036;
 			
-			// aapt resource value: 0x7F010038
-			public const int napedActBtn = 2130772024;
+			// aapt resource value: 0x7F010054
+			public const int napedActBtn = 2130772052;
 			
-			// aapt resource value: 0x7F010050
-			public const int napInError = 2130772048;
+			// aapt resource value: 0x7F010066
+			public const int napInError = 2130772070;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
+			
+			// aapt resource value: 0x7F010090
+			public const int negativeJogBtn = 2130772112;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2645,11 +2714,17 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
-			// aapt resource value: 0x7F010029
-			public const int numberOfLogToRead = 2130772009;
+			// aapt resource value: 0x7F010045
+			public const int numberOfLogToRead = 2130772037;
+			
+			// aapt resource value: 0x7F010140
+			public const int options = 2130772288;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
+			
+			// aapt resource value: 0x7F010019
+			public const int parameterTxt1 = 2130771993;
 			
 			// aapt resource value: 0x7F0C004E
 			public const int parentPanel = 2131492942;
@@ -2657,11 +2732,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
+			// aapt resource value: 0x7F010034
+			public const int pathParamsEdtx = 2130772020;
+			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x7F010018
-			public const int plot_view = 2130771992;
+			// aapt resource value: 0x7F010024
+			public const int plot_view1 = 2130772004;
 			
 			// aapt resource value: 0x7F010016
 			public const int polaczBtn = 2130771990;
@@ -2672,26 +2750,53 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F010004
 			public const int portTxt = 2130771972;
 			
-			// aapt resource value: 0x7F010039
-			public const int powerTxt = 2130772025;
+			// aapt resource value: 0x7F010086
+			public const int posActualJog = 2130772102;
 			
-			// aapt resource value: 0x7F010056
-			public const int pozActBox = 2130772054;
+			// aapt resource value: 0x7F010111
+			public const int positionInCycEdt = 2130772241;
 			
-			// aapt resource value: 0x7F010044
-			public const int pozAndpredTxt = 2130772036;
+			// aapt resource value: 0x7F010103
+			public const int positionInEdt = 2130772227;
 			
-			// aapt resource value: 0x7F010046
-			public const int pozZadOs = 2130772038;
+			// aapt resource value: 0x7F010110
+			public const int positionSetCycEdt = 2130772240;
 			
-			// aapt resource value: 0x7F010054
-			public const int predActBox = 2130772052;
+			// aapt resource value: 0x7F010102
+			public const int positionSetEdt = 2130772226;
 			
-			// aapt resource value: 0x7F010047
-			public const int preZadOs = 2130772039;
+			// aapt resource value: 0x7F010089
+			public const int positiveJogBtn = 2130772105;
 			
-			// aapt resource value: 0x7F010023
-			public const int programBtn = 2130772003;
+			// aapt resource value: 0x7F010125
+			public const int powerBtn = 2130772261;
+			
+			// aapt resource value: 0x7F010126
+			public const int powerOffBtn = 2130772262;
+			
+			// aapt resource value: 0x7F010055
+			public const int powerTxt = 2130772053;
+			
+			// aapt resource value: 0x7F010093
+			public const int pozActBox = 2130772115;
+			
+			// aapt resource value: 0x7F010060
+			public const int pozAndpredTxt = 2130772064;
+			
+			// aapt resource value: 0x7F010062
+			public const int pozZadOs = 2130772066;
+			
+			// aapt resource value: 0x7F010091
+			public const int predActBox = 2130772113;
+			
+			// aapt resource value: 0x7F010063
+			public const int preZadOs = 2130772067;
+			
+			// aapt resource value: 0x7F010040
+			public const int programBtn = 2130772032;
+			
+			// aapt resource value: 0x7F010118
+			public const int progressBar1 = 2130772248;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2702,20 +2807,38 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F010009
-			public const int radioGroup1 = 2130771977;
+			// aapt resource value: 0x7F010010
+			public const int radioGroup1 = 2130771984;
 			
-			// aapt resource value: 0x7F010030
-			public const int readLogBtn = 2130772016;
+			// aapt resource value: 0x7F010122
+			public const int rbCold = 2130772258;
+			
+			// aapt resource value: 0x7F010120
+			public const int rbNone = 2130772256;
+			
+			// aapt resource value: 0x7F010121
+			public const int rbWarm = 2130772257;
+			
+			// aapt resource value: 0x7F010046
+			public const int readLogBtn = 2130772038;
+			
+			// aapt resource value: 0x7F010022
+			public const int refreshBtnCh = 2130772002;
 			
 			// aapt resource value: 0x7F010008
 			public const int rememberChB = 2130771976;
 			
-			// aapt resource value: 0x7F010075
-			public const int resetErrBtn = 2130772085;
+			// aapt resource value: 0x7F010123
+			public const int resBtn = 2130772259;
 			
-			// aapt resource value: 0x7F010052
-			public const int resetON = 2130772050;
+			// aapt resource value: 0x7F010129
+			public const int resetErrBtn = 2130772265;
+			
+			// aapt resource value: 0x7F010068
+			public const int resetON = 2130772072;
+			
+			// aapt resource value: 0x7F010119
+			public const int restartRd = 2130772249;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2783,11 +2906,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
+			// aapt resource value: 0x7F010116
+			public const int setCyclicBtn = 2130772246;
+			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
-			// aapt resource value: 0x7F010077
-			public const int sliding_tabs = 2130772087;
+			// aapt resource value: 0x7F010138
+			public const int sliding_tabs = 2130772280;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -2801,8 +2927,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C006E
 			public const int spacer = 2131492974;
 			
-			// aapt resource value: 0x7F010024
-			public const int spaghettiBtn = 2130772004;
+			// aapt resource value: 0x7F010041
+			public const int spaghettiBtn = 2130772033;
+			
+			// aapt resource value: 0x7F010030
+			public const int spinnerParTitle = 2130772016;
+			
+			// aapt resource value: 0x7F010032
+			public const int spinnerPath = 2130772018;
 			
 			// aapt resource value: 0x7F0C006F
 			public const int split_action_bar = 2131492975;
@@ -2816,23 +2948,29 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
+			// aapt resource value: 0x7F010124
+			public const int sss = 2130772260;
+			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x7F010051
-			public const int statusIDEdxt = 2130772049;
+			// aapt resource value: 0x7F010075
+			public const int statusCyclicsetId = 2130772085;
+			
+			// aapt resource value: 0x7F010076
+			public const int statusIDCycEdxt = 2130772086;
+			
+			// aapt resource value: 0x7F010067
+			public const int statusIDEdxt = 2130772071;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
 			
-			// aapt resource value: 0x7F010074
-			public const int stopOffBtn = 2130772084;
+			// aapt resource value: 0x7F010133
+			public const int stopBtn = 2130772275;
 			
-			// aapt resource value: 0x7F010073
-			public const int stopOnBtn = 2130772083;
-			
-			// aapt resource value: 0x7F010048
-			public const int stoppedN = 2130772040;
+			// aapt resource value: 0x7F010064
+			public const int stoppedN = 2130772068;
 			
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
@@ -2840,14 +2978,17 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0076
 			public const int submit_area = 2131492982;
 			
+			// aapt resource value: 0x7F010023
+			public const int tableChartBtn = 2130772003;
+			
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 0x7F0C0017
-			public const int text = 2131492887;
+			// aapt resource value: 0x7F010029
+			public const int text = 2130772009;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
@@ -2864,26 +3005,32 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F010027
-			public const int textView1 = 2130772007;
+			// aapt resource value: 0x7F010017
+			public const int textView1 = 2130771991;
 			
-			// aapt resource value: 0x7F010062
-			public const int textView11 = 2130772066;
+			// aapt resource value: 0x7F010101
+			public const int textView11 = 2130772225;
 			
-			// aapt resource value: 0x7F010064
-			public const int textView13 = 2130772068;
+			// aapt resource value: 0x7F010104
+			public const int textView13 = 2130772228;
 			
-			// aapt resource value: 0x7F010053
-			public const int textView2 = 2130772051;
+			// aapt resource value: 0x7F010018
+			public const int textView2 = 2130771992;
 			
-			// aapt resource value: 0x7F010057
-			public const int textView6 = 2130772055;
+			// aapt resource value: 0x7F010031
+			public const int textView3 = 2130772017;
 			
-			// aapt resource value: 0x7F010058
-			public const int textView7 = 2130772056;
+			// aapt resource value: 0x7F010077
+			public const int textView4 = 2130772087;
 			
-			// aapt resource value: 0x7F010060
-			public const int textView9 = 2130772064;
+			// aapt resource value: 0x7F010094
+			public const int textView6 = 2130772116;
+			
+			// aapt resource value: 0x7F010095
+			public const int textView7 = 2130772117;
+			
+			// aapt resource value: 0x7F010098
+			public const int textView9 = 2130772120;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2891,11 +3038,17 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
 			
+			// aapt resource value: 0x7F010027
+			public const int timeScore = 2130772007;
+			
 			// aapt resource value: 0x7F0C001A
 			public const int title = 2131492890;
 			
 			// aapt resource value: 0x7F0C0082
 			public const int titleDividerNoCustom = 2131492994;
+			
+			// aapt resource value: 0x7F010033
+			public const int titleParamsEdtxt = 2130772019;
 			
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
@@ -2905,6 +3058,12 @@ namespace PracaInzynierska
 			
 			// aapt resource value: 0x7F0C0085
 			public const int topPanel = 2131492997;
+			
+			// aapt resource value: 0x7F010113
+			public const int torqueInCycEdt = 2130772243;
+			
+			// aapt resource value: 0x7F010112
+			public const int torqueSetCycEdT = 2130772242;
 			
 			// aapt resource value: 0x7F0C0086
 			public const int touch_outside = 2131492998;
@@ -2924,11 +3083,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F010020
-			public const int trybRecznyBtn = 2130772000;
+			// aapt resource value: 0x7F010037
+			public const int trybRecznyBtn = 2130772023;
 			
-			// aapt resource value: 0x7F010019
-			public const int trybyJazdyBtn = 2130771993;
+			// aapt resource value: 0x7F010036
+			public const int trybyJazdyBtn = 2130772022;
+			
+			// aapt resource value: 0x7F010078
+			public const int txtVelocity = 2130772088;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2936,14 +3098,47 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F010025
-			public const int ustawieniaBtn = 2130772005;
+			// aapt resource value: 0x7F010128
+			public const int updateBtn = 2130772264;
 			
-			// aapt resource value: 0x7F010011
-			public const int uzytkownikRB = 2130771985;
+			// aapt resource value: 0x7F010137
+			public const int updateCyclicSet = 2130772279;
 			
-			// aapt resource value: 0x7F010078
-			public const int viewpager = 2130772088;
+			// aapt resource value: 0x7F010085
+			public const int updateJogParameterBtn = 2130772101;
+			
+			// aapt resource value: 0x7F010042
+			public const int ustawieniaBtn = 2130772034;
+			
+			// aapt resource value: 0x7F010012
+			public const int uzytkownikRB = 2130771986;
+			
+			// aapt resource value: 0x7F010026
+			public const int valueScore = 2130772006;
+			
+			// aapt resource value: 0x7F010087
+			public const int velActJog = 2130772103;
+			
+			// aapt resource value: 0x7F010079
+			public const int velocityEdt = 2130772089;
+			
+			// aapt resource value: 0x7F010080
+			public const int velocityEdtJogNew = 2130772096;
+			
+			// aapt resource value: 0x7F010115
+			public const int velocityInCycEdt = 2130772245;
+			
+			// aapt resource value: 0x7F010097
+			public const int velocityInDEdt = 2130772119;
+			
+			// aapt resource value: 0x7F010114
+			public const int velocitySetCycEdt = 2130772244;
+			
+			// aapt resource value: 0x7F010096
+			public const int velocitySetEdt = 2130772118;
+			
+			// aapt resource value: 0x7F010139
+			public const int viewpager = 2130772281;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -2954,20 +3149,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
 			
-			// aapt resource value: 0x7F010076
-			public const int wsteczBtn = 2130772086;
+			// aapt resource value: 0x7F010043
+			public const int wyjścieBtn = 2130772035;
 			
-			// aapt resource value: 0x7F010026
-			public const int wyjścieBtn = 2130772006;
-			
-			// aapt resource value: 0x7F010022
-			public const int wykresyBtn = 2130772002;
-			
-			// aapt resource value: 0x7F010066
-			public const int zasilanieBtn = 2130772070;
-			
-			// aapt resource value: 0x7F010067
-			public const int zasilanieOffBtn = 2130772071;
+			// aapt resource value: 0x7F010039
+			public const int wykresyBtn = 2130772025;
 			
 			static Id()
 			{
@@ -3110,7 +3296,13 @@ namespace PracaInzynierska
 			public const int charst_lay = 2130837507;
 			
 			// aapt resource value: 0x7F020004
-			public const int control_layout = 2130837508;
+			public const int chartTable = 2130837508;
+			
+			// aapt resource value: 0x7F020005
+			public const int configuratorChart = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int control_layout = 2130837510;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -3154,17 +3346,20 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F020005
-			public const int diagnosis = 2130837509;
-			
-			// aapt resource value: 0x7F020006
-			public const int headerLogRow = 2130837510;
-			
 			// aapt resource value: 0x7F020007
-			public const int infoTJFrag = 2130837511;
+			public const int diagnosis = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int logRow = 2130837512;
+			public const int headerLogRow = 2130837512;
+			
+			// aapt resource value: 0x7F020009
+			public const int infoTJFrag = 2130837513;
+			
+			// aapt resource value: 0x7F020010
+			public const int JogOperator_layout = 2130837520;
+			
+			// aapt resource value: 0x7F020011
+			public const int logRow = 2130837521;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3211,8 +3406,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F020009
-			public const int ParamTJFrag = 2130837513;
+			// aapt resource value: 0x7F020012
+			public const int ParamTJFrag = 2130837522;
+			
+			// aapt resource value: 0x7F020013
+			public const int progres_dialog_box = 2130837523;
+			
+			// aapt resource value: 0x7F020014
+			public const int scoreChartRow = 2130837524;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3223,8 +3424,11 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F020010
-			public const int sterowanieTJFrag = 2130837520;
+			// aapt resource value: 0x7F020015
+			public const int settings_layout = 2130837525;
+			
+			// aapt resource value: 0x7F020016
+			public const int sterowanieTJFrag = 2130837526;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -3232,8 +3436,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F020011
-			public const int tryby_jazdy_layout = 2130837521;
+			// aapt resource value: 0x7F020017
+			public const int tryby_jazdy_layout = 2130837527;
 			
 			static Layout()
 			{
@@ -3245,17 +3449,33 @@ namespace PracaInzynierska
 			}
 		}
 		
-		public partial class Mipmap
+		public partial class Menu
 		{
 			
 			// aapt resource value: 0x7F030002
-			public const int ic_launcher = 2130903042;
+			public const int menu_chart = 2130903042;
 			
-			// aapt resource value: 0x7F030004
-			public const int ic_launcher_foreground = 2130903044;
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
 			
-			// aapt resource value: 0x7F030003
-			public const int ic_launcher_round = 2130903043;
+			private Menu()
+			{
+			}
+		}
+		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7F040002
+			public const int ic_launcher = 2130968578;
+			
+			// aapt resource value: 0x7F040004
+			public const int ic_launcher_foreground = 2130968580;
+			
+			// aapt resource value: 0x7F040003
+			public const int ic_launcher_round = 2130968579;
 			
 			static Mipmap()
 			{
@@ -3357,14 +3577,14 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F15001D
 			public const int abc_toolbar_collapse_description = 2132082717;
 			
-			// aapt resource value: 0x7F050003
-			public const int action_settings = 2131034115;
+			// aapt resource value: 0x7F060003
+			public const int action_settings = 2131099651;
 			
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
-			// aapt resource value: 0x7F050002
-			public const int app_name = 2131034114;
+			// aapt resource value: 0x7F060002
+			public const int app_name = 2131099650;
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
@@ -3424,8 +3644,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F060002
-			public const int AppTheme = 2131099650;
+			// aapt resource value: 0x7F070002
+			public const int AppTheme = 2131165186;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -4000,8 +4220,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x7F1600C5
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2132148421;
 			
-			// aapt resource value: 0x7F060003
-			public const int TabLayoutThemes = 2131099651;
+			// aapt resource value: 0x7F070003
+			public const int TabLayoutThemes = 2131165187;
 			
 			// aapt resource value: 0x7F1600C6
 			public const int TextAppearance_AppCompat = 2132148422;
@@ -4611,11 +4831,11 @@ namespace PracaInzynierska
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070047
-			public const int ActionBarLayout_android_layout_gravity = 2131165255;
+			// aapt resource value: 0x7F080047
+			public const int ActionBarLayout_android_layout_gravity = 2131230791;
 			
-			// aapt resource value: 0x7F070017
-			public const int ActionBar_background = 2131165207;
+			// aapt resource value: 0x7F080017
+			public const int ActionBar_background = 2131230743;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -4704,8 +4924,8 @@ namespace PracaInzynierska
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070049
-			public const int ActionMenuItemView_android_minWidth = 2131165257;
+			// aapt resource value: 0x7F080049
+			public const int ActionMenuItemView_android_minWidth = 2131230793;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -4715,8 +4935,8 @@ namespace PracaInzynierska
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F070051
-			public const int ActionMode_background = 2131165265;
+			// aapt resource value: 0x7F080051
+			public const int ActionMode_background = 2131230801;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -4737,8 +4957,8 @@ namespace PracaInzynierska
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F070058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165272;
+			// aapt resource value: 0x7F080058
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230808;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -4752,8 +4972,8 @@ namespace PracaInzynierska
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F070061
-			public const int AlertDialog_android_layout = 2131165281;
+			// aapt resource value: 0x7F080061
+			public const int AlertDialog_android_layout = 2131230817;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -4784,14 +5004,14 @@ namespace PracaInzynierska
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F070075
-			public const int AppBarLayoutStates_state_collapsed = 2131165301;
+			// aapt resource value: 0x7F080075
+			public const int AppBarLayoutStates_state_collapsed = 2131230837;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070069
-			public const int AppBarLayout_android_background = 2131165289;
+			// aapt resource value: 0x7F080069
+			public const int AppBarLayout_android_background = 2131230825;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -4809,8 +5029,8 @@ namespace PracaInzynierska
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F070078
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165304;
+			// aapt resource value: 0x7F080078
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230840;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -4821,8 +5041,8 @@ namespace PracaInzynierska
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F070081
-			public const int AppCompatImageView_android_src = 2131165313;
+			// aapt resource value: 0x7F080081
+			public const int AppCompatImageView_android_src = 2131230849;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -4839,8 +5059,8 @@ namespace PracaInzynierska
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F070086
-			public const int AppCompatSeekBar_android_thumb = 2131165318;
+			// aapt resource value: 0x7F080086
+			public const int AppCompatSeekBar_android_thumb = 2131230854;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -4860,8 +5080,8 @@ namespace PracaInzynierska
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070091
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165329;
+			// aapt resource value: 0x7F080091
+			public const int AppCompatTextHelper_android_drawableBottom = 2131230865;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -4891,8 +5111,8 @@ namespace PracaInzynierska
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070099
-			public const int AppCompatTextView_android_textAppearance = 2131165337;
+			// aapt resource value: 0x7F080099
+			public const int AppCompatTextView_android_textAppearance = 2131230873;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -5036,8 +5256,8 @@ namespace PracaInzynierska
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F070108
-			public const int AppCompatTheme_actionBarDivider = 2131165448;
+			// aapt resource value: 0x7F080108
+			public const int AppCompatTheme_actionBarDivider = 2131230984;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -5400,8 +5620,8 @@ namespace PracaInzynierska
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070228
-			public const int BottomNavigationView_elevation = 2131165736;
+			// aapt resource value: 0x7F080228
+			public const int BottomNavigationView_elevation = 2131231272;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -5420,8 +5640,8 @@ namespace PracaInzynierska
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F070234
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165748;
+			// aapt resource value: 0x7F080234
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231284;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -5432,8 +5652,8 @@ namespace PracaInzynierska
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070238
-			public const int ButtonBarLayout_allowStacking = 2131165752;
+			// aapt resource value: 0x7F080238
+			public const int ButtonBarLayout_allowStacking = 2131231288;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -5453,8 +5673,8 @@ namespace PracaInzynierska
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F070240
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165760;
+			// aapt resource value: 0x7F080240
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231296;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -5487,8 +5707,8 @@ namespace PracaInzynierska
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F070257
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165783;
+			// aapt resource value: 0x7F080257
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231319;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -5516,8 +5736,8 @@ namespace PracaInzynierska
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070260
-			public const int ColorStateListItem_alpha = 2131165792;
+			// aapt resource value: 0x7F080260
+			public const int ColorStateListItem_alpha = 2131231328;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -5530,8 +5750,8 @@ namespace PracaInzynierska
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F070264
-			public const int CompoundButton_android_button = 2131165796;
+			// aapt resource value: 0x7F080264
+			public const int CompoundButton_android_button = 2131231332;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -5543,8 +5763,8 @@ namespace PracaInzynierska
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F070268
-			public const int CoordinatorLayout_keylines = 2131165800;
+			// aapt resource value: 0x7F080268
+			public const int CoordinatorLayout_keylines = 2131231336;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -5555,8 +5775,8 @@ namespace PracaInzynierska
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F070271
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165809;
+			// aapt resource value: 0x7F080271
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231345;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -5584,8 +5804,8 @@ namespace PracaInzynierska
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F070279
-			public const int DesignTheme_bottomSheetDialogTheme = 2131165817;
+			// aapt resource value: 0x7F080279
+			public const int DesignTheme_bottomSheetDialogTheme = 2131231353;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -5603,8 +5823,8 @@ namespace PracaInzynierska
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F070283
-			public const int DrawerArrowToggle_arrowHeadLength = 2131165827;
+			// aapt resource value: 0x7F080283
+			public const int DrawerArrowToggle_arrowHeadLength = 2131231363;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -5637,8 +5857,8 @@ namespace PracaInzynierska
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F070292
-			public const int FloatingActionButton_backgroundTint = 2131165842;
+			// aapt resource value: 0x7F080292
+			public const int FloatingActionButton_backgroundTint = 2131231378;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -5646,8 +5866,8 @@ namespace PracaInzynierska
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070301
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165953;
+			// aapt resource value: 0x7F080301
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231489;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -5683,8 +5903,8 @@ namespace PracaInzynierska
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F070010
-			public const int FontFamilyFont_android_font = 2131165200;
+			// aapt resource value: 0x7F080010
+			public const int FontFamilyFont_android_font = 2131230736;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -5701,8 +5921,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F070003
-			public const int FontFamily_fontProviderAuthority = 2131165187;
+			// aapt resource value: 0x7F080003
+			public const int FontFamily_fontProviderAuthority = 2131230723;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -5724,8 +5944,8 @@ namespace PracaInzynierska
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F070303
-			public const int ForegroundLinearLayout_android_foreground = 2131165955;
+			// aapt resource value: 0x7F080303
+			public const int ForegroundLinearLayout_android_foreground = 2131231491;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -5744,8 +5964,8 @@ namespace PracaInzynierska
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F070307
-			public const int LinearLayoutCompat_android_baselineAligned = 2131165959;
+			// aapt resource value: 0x7F080307
+			public const int LinearLayoutCompat_android_baselineAligned = 2131231495;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -5771,8 +5991,8 @@ namespace PracaInzynierska
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070317
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131165975;
+			// aapt resource value: 0x7F080317
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231511;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -5793,8 +6013,8 @@ namespace PracaInzynierska
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070322
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131165986;
+			// aapt resource value: 0x7F080322
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231522;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -5807,8 +6027,8 @@ namespace PracaInzynierska
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070325
-			public const int MenuGroup_android_checkableBehavior = 2131165989;
+			// aapt resource value: 0x7F080325
+			public const int MenuGroup_android_checkableBehavior = 2131231525;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -5850,8 +6070,8 @@ namespace PracaInzynierska
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F070332
-			public const int MenuItem_actionLayout = 2131166002;
+			// aapt resource value: 0x7F080332
+			public const int MenuItem_actionLayout = 2131231538;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -5930,8 +6150,8 @@ namespace PracaInzynierska
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F070356
-			public const int MenuView_android_headerBackground = 2131166038;
+			// aapt resource value: 0x7F080356
+			public const int MenuView_android_headerBackground = 2131231574;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -5969,8 +6189,8 @@ namespace PracaInzynierska
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070366
-			public const int NavigationView_android_background = 2131166054;
+			// aapt resource value: 0x7F080366
+			public const int NavigationView_android_background = 2131231590;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -6007,11 +6227,11 @@ namespace PracaInzynierska
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F070381
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166081;
+			// aapt resource value: 0x7F080381
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131231617;
 			
-			// aapt resource value: 0x7F070377
-			public const int PopupWindow_android_popupAnimationStyle = 2131166071;
+			// aapt resource value: 0x7F080377
+			public const int PopupWindow_android_popupAnimationStyle = 2131231607;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -6023,8 +6243,8 @@ namespace PracaInzynierska
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F070383
-			public const int RecycleListView_paddingBottomNoButtons = 2131166083;
+			// aapt resource value: 0x7F080383
+			public const int RecycleListView_paddingBottomNoButtons = 2131231619;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -6042,8 +6262,8 @@ namespace PracaInzynierska
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F070386
-			public const int RecyclerView_android_descendantFocusability = 2131166086;
+			// aapt resource value: 0x7F080386
+			public const int RecyclerView_android_descendantFocusability = 2131231622;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -6078,14 +6298,14 @@ namespace PracaInzynierska
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F070398
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166104;
+			// aapt resource value: 0x7F080398
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131231640;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F070400
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166208;
+			// aapt resource value: 0x7F080400
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231744;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -6106,8 +6326,8 @@ namespace PracaInzynierska
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F070402
-			public const int SearchView_android_focusable = 2131166210;
+			// aapt resource value: 0x7F080402
+			public const int SearchView_android_focusable = 2131231746;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -6162,8 +6382,8 @@ namespace PracaInzynierska
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F070420
-			public const int SnackbarLayout_android_maxWidth = 2131166240;
+			// aapt resource value: 0x7F080420
+			public const int SnackbarLayout_android_maxWidth = 2131231776;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -6178,8 +6398,8 @@ namespace PracaInzynierska
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F070424
-			public const int Spinner_android_dropDownWidth = 2131166244;
+			// aapt resource value: 0x7F080424
+			public const int Spinner_android_dropDownWidth = 2131231780;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -6209,8 +6429,8 @@ namespace PracaInzynierska
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F070430
-			public const int SwitchCompat_android_textOff = 2131166256;
+			// aapt resource value: 0x7F080430
+			public const int SwitchCompat_android_textOff = 2131231792;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -6256,8 +6476,8 @@ namespace PracaInzynierska
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070445
-			public const int TabItem_android_icon = 2131166277;
+			// aapt resource value: 0x7F080445
+			public const int TabItem_android_icon = 2131231813;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -6283,8 +6503,8 @@ namespace PracaInzynierska
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F070449
-			public const int TabLayout_tabBackground = 2131166281;
+			// aapt resource value: 0x7F080449
+			public const int TabLayout_tabBackground = 2131231817;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -6346,8 +6566,8 @@ namespace PracaInzynierska
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070466
-			public const int TextAppearance_android_fontFamily = 2131166310;
+			// aapt resource value: 0x7F080466
+			public const int TextAppearance_android_fontFamily = 2131231846;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -6403,8 +6623,8 @@ namespace PracaInzynierska
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F070480
-			public const int TextInputLayout_android_hint = 2131166336;
+			// aapt resource value: 0x7F080480
+			public const int TextInputLayout_android_hint = 2131231872;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -6482,8 +6702,8 @@ namespace PracaInzynierska
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F070497
-			public const int Toolbar_android_gravity = 2131166359;
+			// aapt resource value: 0x7F080497
+			public const int Toolbar_android_gravity = 2131231895;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -6581,8 +6801,8 @@ namespace PracaInzynierska
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070533
-			public const int ViewBackgroundHelper_android_background = 2131166515;
+			// aapt resource value: 0x7F080533
+			public const int ViewBackgroundHelper_android_background = 2131232051;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -6595,8 +6815,8 @@ namespace PracaInzynierska
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070537
-			public const int ViewStubCompat_android_id = 2131166519;
+			// aapt resource value: 0x7F080537
+			public const int ViewStubCompat_android_id = 2131232055;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -6604,8 +6824,8 @@ namespace PracaInzynierska
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070527
-			public const int View_android_focusable = 2131166503;
+			// aapt resource value: 0x7F080527
+			public const int View_android_focusable = 2131232039;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
